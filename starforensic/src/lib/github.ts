@@ -1,6 +1,6 @@
 export async function fetchRepoData(owner: string, repo: string) {
   const token = process.env.GITHUB_TOKEN;
-  const headers = token ? { Authorization: `Bearer ${token}` } : {};
+  const headers: Record<string, string> = token ? { Authorization: `Bearer ${token}` } : {};
 
   const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
     headers,
@@ -17,7 +17,7 @@ export async function fetchRepoData(owner: string, repo: string) {
 
 export async function fetchRecentStargazers(owner: string, repo: string, limit = 100) {
   const token = process.env.GITHUB_TOKEN;
-  const headers = {
+  const headers: Record<string, string> = {
     Accept: 'application/vnd.github.v3.star+json',
     ...(token && { Authorization: `Bearer ${token}` })
   };
