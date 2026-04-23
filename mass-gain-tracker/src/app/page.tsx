@@ -1,17 +1,17 @@
-import { PrismaClient } from '@prisma/client';
 import { format } from 'date-fns';
 import ClientDashboard from '@/components/ClientDashboard';
-
-const prisma = new PrismaClient();
+import fs from 'fs';
+import path from 'path';
 
 export default async function Page() {
   const today = new Date();
   today.setUTCHours(0, 0, 0, 0);
 
-  const plan = await prisma.dailyPlan.findUnique({
-    where: { date: today },
-    include: { meals: true, exercises: true }
-  });
+  const jsonPath = path.join(process.cwd(), 'planData.json');
+  const fileContents = fs.readFileSync(jsonPath, 'utf8');
+  const allPlans = JSON.parse(fileContents);
+
+  const plan = allPlans.find((p: any) => new Date(p.date).getTime() === today.getTime());
 
   if (!plan) {
     return (

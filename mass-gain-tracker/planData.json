@@ -1,0 +1,5392 @@
+[
+  {
+    "date": "2026-04-24T00:00:00.000Z",
+    "dayNumber": 1,
+    "phase": "Старт-блок",
+    "type": "PULL",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "29761a3f-b67f-4e54-b4ea-e47d94f72e7f",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "fd0bbb32-5824-4a1c-b9a5-b6261ad60293",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "1ea0d159-bce2-4d82-97e4-a4a7ec7a8b51",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "cc1a071c-cffe-48f5-b5c8-6d5a3e71ebf2",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "40e2f570-a50d-4edd-8d79-ed9de32db144",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "aaa9b29e-668c-4641-a785-6b859088be59",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "1a8c00ea-0612-409f-b6b9-3b02fd6da2a3",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      },
+      {
+        "id": "99cdcb7c-84a4-4756-a3ec-b7c80daf3f4a",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25T00:00:00.000Z",
+    "dayNumber": 2,
+    "phase": "Старт-блок",
+    "type": "LEGS",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "27acb168-905d-41db-ae11-8005b0e16c1f",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "42ab3bcd-3d81-49a9-9f5b-c9cd1b0a0d9e",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "e1f423c7-7fde-49ee-9bb6-b290365c2d6f",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "39a374c8-2fe7-46c3-af76-629ef513c4c9",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "81ac52f7-57b1-4f76-a4fa-f0eaf48a01e9",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "f21def64-afcc-4175-ab68-9d408c4a2a17",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "bd01820e-65b3-43f7-aaf2-59b061d2493b",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      },
+      {
+        "id": "0172c46d-9830-464c-a20f-1de58355b824",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-26T00:00:00.000Z",
+    "dayNumber": 3,
+    "phase": "Старт-блок",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "43eb4079-9e74-4960-83df-7b141f7e580a",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "id": "2bd0d12b-0c7f-4a52-a613-2c495d413464",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "id": "d5bc3454-3182-4e43-b137-f22e333d13ae",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "id": "c9f52221-1d49-41fa-a59e-1e17a9efc3d3",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-26T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-04-27T00:00:00.000Z",
+    "dayNumber": 4,
+    "phase": "Вкатка",
+    "type": "UPPER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "19600327-de8b-4328-827d-6cf1abcc18bb",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "1830326e-4113-41de-9b4c-3fbef3549970",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "205508c9-40f8-4ce9-a98e-630c8e71d670",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "c97be2a7-5774-41d4-a4a2-af25025734cc",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "dcfff91e-5c6a-4b42-a826-ad8e1c1a446b",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "0b246be4-6ab2-4f8b-a5a7-60f34e05f1c5",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "8aaa38de-0be1-4faa-bb06-475acbe771c3",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "44956b30-d0e2-40a4-beb7-f6f78afe8eaf",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      },
+      {
+        "id": "17473f20-8529-4af5-bbac-8d2d34dd2f4c",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-27T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28T00:00:00.000Z",
+    "dayNumber": 5,
+    "phase": "Вкатка",
+    "type": "LOWER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "2144a6ef-6a98-4129-9033-55d8bcf68f36",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "cbe3a711-79a7-4b9c-8527-2eddf38e9f44",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "c6913d3c-b6dd-4228-bf65-f99172d092f8",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "bac62a0c-94a8-4fad-b38a-963ba53fc3a7",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "8d9aedad-2e80-4c9c-b8ca-b8ebf9dc375b",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "0a63a64b-b769-4dc6-8734-b3200249dc81",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "d236192b-07a7-4195-a74f-77a762af267d",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      },
+      {
+        "id": "595d0741-0080-4b02-b4b7-65a46df5ed9c",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-29T00:00:00.000Z",
+    "dayNumber": 6,
+    "phase": "Вкатка",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9d0d7909-3fc2-4d81-af7e-3e2d232fbd57",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-29T00:00:00.000Z"
+      },
+      {
+        "id": "2dbddabb-fbb5-4f2a-8e33-8f850efd6ab7",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-29T00:00:00.000Z"
+      },
+      {
+        "id": "58887afb-7a7e-4a6d-84c7-227f71c9a3a1",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-29T00:00:00.000Z"
+      },
+      {
+        "id": "f1610dc0-2f03-4bc7-b20d-df111b22ba0f",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-29T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-04-30T00:00:00.000Z",
+    "dayNumber": 7,
+    "phase": "Вкатка",
+    "type": "PUSH",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "b6add0af-e573-4b5b-90a6-0fa275ea42d8",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "2dbe8a5d-cb33-49fc-b258-3a76892304a9",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "8780362c-c4d7-4a61-82a2-f5e352ec76d8",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "c871d91d-2f42-4aee-8dd4-b0c68aaba66c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "9dab9b3a-da4a-4f22-bfda-25f8e99c6099",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ae103a0a-bb1e-417f-8afb-4392821557bf",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "f952e505-277a-4a2d-969f-223bbd221a78",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      },
+      {
+        "id": "9b374369-c6c2-46e0-9fbc-592fd842288d",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-04-30T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-01T00:00:00.000Z",
+    "dayNumber": 8,
+    "phase": "Вкатка",
+    "type": "PULL",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "b7059dd6-e50c-4a85-8abf-d292383e6e36",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "80139290-6c22-4588-8afb-ac2c319bfeda",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "2ffa3b4a-73f9-4d78-88a7-794825564d5b",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "a1dbf693-a081-4c9a-9c7c-69cb1524399b",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "f13f94eb-9097-4ac5-8589-adf6353e6e59",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "82ca6d96-c784-486d-84e8-f0b0609c0202",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "3494d8d0-3bb2-4fa5-a47a-f49f6fbe6006",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      },
+      {
+        "id": "901bb4aa-8cc1-48bb-8238-2632dc9d9640",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-01T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02T00:00:00.000Z",
+    "dayNumber": 9,
+    "phase": "Вкатка",
+    "type": "LEGS",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "3b78c2f6-0d8f-4cfc-b7f2-6ceb95c662ee",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "0d4a293e-029a-48d8-ba0c-a9e64ca1e112",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "173914ad-2fe7-4095-b40b-51fa15747b67",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "6f6ee9f1-4db8-4f5b-b2e5-812cba68f6b7",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "52aeff71-9f36-47a8-a44b-75322358af3d",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "d47dde98-1cd8-47db-8d03-1f13d7334a70",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "eb0904a4-728c-4a0f-99d1-d651178965cb",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "f6c9dc72-0077-46e6-8001-0ea93f87bd58",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-02T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-03T00:00:00.000Z",
+    "dayNumber": 10,
+    "phase": "Вкатка",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "860935a6-756e-46ab-a12c-ed072e7e0310",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "id": "a0f59940-c2de-4b11-b77b-5eeff8d84762",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "id": "5aa84c58-97ba-4c90-bf7d-eec5e06ba066",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "id": "87531b20-1a23-4776-9c2b-d5ab701ff7f9",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-03T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-04T00:00:00.000Z",
+    "dayNumber": 11,
+    "phase": "Вкатка",
+    "type": "UPPER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "f3416dde-5a43-46e6-a2c5-c962913aacd4",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "a4dbe5fc-b083-4548-86fa-f8cccd0debc8",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "229bde51-7939-4065-851e-f76051f537ba",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "b79e786d-afbf-42c1-98cd-be3ca4cff98a",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "a840dee6-1dbe-4487-8ff0-c3072a62f5c4",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "7175425a-43f0-45ed-a0f3-239ec11a055e",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "9d824cf3-fe89-44e0-9931-91feae0b55bc",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "059ba35b-0e87-4bee-9006-f3b182dc9896",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "dc13db16-0856-430e-ba45-a44da5b65d77",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-04T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05T00:00:00.000Z",
+    "dayNumber": 12,
+    "phase": "Вкатка",
+    "type": "LOWER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "053799dc-2148-453c-bf93-dc28b6a4cd1d",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "3f09aab1-7add-48a9-85c2-53be65827758",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "6683d61a-784c-47c4-9fe3-96794c9b31d9",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "e1355723-9b8a-4699-8eba-cdd30bdbfd57",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "7a4a3ceb-cc33-4980-a0ac-8d9f863aeba8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "4023cf44-78d6-49e6-a451-f611dc78a8ba",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "cb5cacfd-4ed4-4d8c-9e27-ba34f8ce766f",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "0d9441df-b549-4656-9adc-5011360bbe50",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-05T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-06T00:00:00.000Z",
+    "dayNumber": 13,
+    "phase": "Вкатка",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "2c2aee42-ea80-44a1-aa90-59bf1e1afd80",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-06T00:00:00.000Z"
+      },
+      {
+        "id": "e0e6d66b-ce6b-4292-938f-16821c6ea2c2",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-06T00:00:00.000Z"
+      },
+      {
+        "id": "cc989471-f66d-4d25-8fc1-9479eea11465",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-06T00:00:00.000Z"
+      },
+      {
+        "id": "f93b43c3-ff41-443f-8ec0-621d457f782d",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-06T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-07T00:00:00.000Z",
+    "dayNumber": 14,
+    "phase": "Вкатка",
+    "type": "PUSH",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "ed5f920a-21b9-438d-95e9-fa25608e6342",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "acaa5195-5bc7-4bfe-ace5-16d5e12dc662",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "bbc69013-9a6a-45e6-90a8-288fe6913049",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "016d7467-e0fb-43db-a2e6-ef5d1f976c4b",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "b612c729-80cb-4f6c-a4ae-fc293c561d53",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "6fb56b75-95f5-4f0d-9823-f2818962de87",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "a9d518eb-a6c2-4ee0-90ab-76d461376107",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "7edfd53d-876c-4fd8-b571-26981282a9b6",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-07T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08T00:00:00.000Z",
+    "dayNumber": 15,
+    "phase": "Набор",
+    "type": "PULL",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "baa6d414-c912-4827-a392-20abf5ac0b01",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "fd75e5ee-36c5-4781-bb62-0c12fa9b7bc8",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "8e8659f9-e983-428d-af0c-e6c762da2247",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "217362f7-29b7-4a00-b1b4-175da0b7f074",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "3181be4d-e070-44d6-8e4c-7392aa88f2b1",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "cfc0511c-cb9f-44a7-8175-d895b92f32ae",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "ee67c5cd-e41f-4a90-ba94-25451b7bae84",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "89e2044a-83f2-4c49-8b8d-e9423fe4bc49",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-08T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-09T00:00:00.000Z",
+    "dayNumber": 16,
+    "phase": "Набор",
+    "type": "LEGS",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "29d1c454-0862-40de-bff0-301a358c6de8",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "a5eb84aa-cd14-40d7-8dcb-5dbdfcd096a7",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "90087e2f-4ed2-4072-b6d7-937170cf89f0",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "e073eefc-d50f-4311-8e9c-6aadc72a643c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "72d748ff-81d8-4c67-a8c4-3da0ad57e2c3",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "414b13ef-0312-44e8-bc32-9ca45992816a",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "c5bbd32a-ec82-4b53-a8f7-115b547d32c6",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "05b2126e-c3f1-45c4-879f-40c8e46f43c9",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-09T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-10T00:00:00.000Z",
+    "dayNumber": 17,
+    "phase": "Набор",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "35f98198-ba27-49dc-95ba-0453d81924dd",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-10T00:00:00.000Z"
+      },
+      {
+        "id": "427c5c36-29b2-41e2-a0b2-4f9a51202798",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-10T00:00:00.000Z"
+      },
+      {
+        "id": "74e6e9ab-901b-4e42-9a4e-126f296415fe",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-10T00:00:00.000Z"
+      },
+      {
+        "id": "8cfb9f17-d664-4e83-88e6-ea810c4693c2",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-10T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-11T00:00:00.000Z",
+    "dayNumber": 18,
+    "phase": "Набор",
+    "type": "UPPER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "d31b4284-ff8a-45bd-aa8b-9d678113cca9",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "1a802913-a33e-495c-9b1a-15a2c40f8a36",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "56fd34f3-2cf3-424e-911d-8c2742d98c59",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "1ff90bfa-6cdf-431b-a802-0f4287d532f2",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "9ba01e3c-48f5-4088-8574-553ade9d61c7",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "089d1d1d-b452-44f6-9fd8-9e9a1280f560",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "c59fe6a3-3375-4d0b-932e-b98a4444d9b4",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "5e90a95b-fea0-4cdc-a967-f8f36999fbfc",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "cc0fb02e-6c57-49e8-bb27-332752011e98",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-12T00:00:00.000Z",
+    "dayNumber": 19,
+    "phase": "Набор",
+    "type": "LOWER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "593691b3-b2db-4546-8506-d30dd0b2f792",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "39a00452-dc48-4c45-9b98-8c7bc21634d3",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "87d2d77c-f9c2-4373-a326-4cb78c283cce",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "d8adbd20-0d68-4daf-b32d-99769d571c35",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "20e6cfee-f717-4d5e-872a-38af93fed051",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e50a23a9-0105-4e84-af96-7cf4c484a72d",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "f9575d8e-e983-4ae0-9352-425675c0bcfb",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "8f8f97fb-c505-4799-80eb-1d0ea3eed730",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-12T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-13T00:00:00.000Z",
+    "dayNumber": 20,
+    "phase": "Набор",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "3e558b35-7c3c-4b87-baf0-013b1dd8e8a5",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-13T00:00:00.000Z"
+      },
+      {
+        "id": "c07f4edf-5518-4391-a5b6-36f0035f0d0b",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-13T00:00:00.000Z"
+      },
+      {
+        "id": "7ddc5b87-37dd-418d-adef-d813f0ac6dc8",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-13T00:00:00.000Z"
+      },
+      {
+        "id": "267bf7f7-9715-4960-b4c9-6c09f52aecc1",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-13T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-14T00:00:00.000Z",
+    "dayNumber": 21,
+    "phase": "Набор",
+    "type": "PUSH",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "52eeb3e2-1b5d-4016-ab5f-d740056c9dee",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "81d5e947-1fe7-4578-87e1-c6979beed0e1",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "3095a950-46c3-44a0-890e-4f26854a7332",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "5223819c-a382-4f57-99ba-91540ee3732b",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "1f38f006-ea05-4c29-beb9-17fb9be07a2d",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "467dd8b1-0392-47b9-96d5-44b66edd7e50",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "2aa588d2-0d5b-48a2-8cb7-3a7fb084e0ea",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "154ea4f2-143a-4365-8a8f-dbe09a145163",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-14T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15T00:00:00.000Z",
+    "dayNumber": 22,
+    "phase": "Набор",
+    "type": "PULL",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "721aea12-4e9d-4f75-ad09-f16864f2dfac",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "50ee81e6-164f-43e6-8fe2-8af829aeef94",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "c4c16bb0-47a4-4da3-866f-4a97c927aef9",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "0aa5be46-3d55-49f4-b38d-12a69bb1b15f",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "c0221511-2f52-4411-87a2-fe0b27a8dc0f",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "26883f3e-23bc-429a-b5c1-4d2ff2ff8413",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "6e31af7f-2a4b-47d4-ae98-c3264687a1d4",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "9e9d3b3a-4fb6-4f4d-8ddf-7846a15aeef0",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16T00:00:00.000Z",
+    "dayNumber": 23,
+    "phase": "Набор",
+    "type": "LEGS",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "a64c1ed9-7440-440f-a14b-37c3180c6c56",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "692caab7-bafb-423f-b2e8-ea9834e70d38",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "29aef0b4-8785-46d8-9bba-bc7381fa35c9",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "f328df7b-5269-4f33-bdd5-5d000d2752e3",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "8d24d5a7-b7b6-49d0-af16-2a7a4db82ba5",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "1951328a-d0a9-41c2-a1d2-1e98219ad1f5",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "eeda8099-591f-4de1-a4a3-c1c0c109169e",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "6965a956-463f-4ce2-a49b-208492344dff",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-17T00:00:00.000Z",
+    "dayNumber": 24,
+    "phase": "Набор",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "68468bfc-3db6-4e63-a586-3e1adfdc12b6",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "id": "936f2595-9a3b-4f7e-8471-f5cac1869845",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "id": "fe301a37-f375-4a67-a8c7-821f2982af24",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "id": "3e2da7e9-f610-4e28-a3d2-6f6aff723968",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-17T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-18T00:00:00.000Z",
+    "dayNumber": 25,
+    "phase": "Набор",
+    "type": "UPPER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "a5a6984b-5010-4014-bdfe-9966fc76817a",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "747decfa-e14b-414d-bd85-fc79d63435c1",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "3b6bd4df-6eb4-4c5e-8ee1-8f099eb961b8",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "44b5c626-4b51-4492-9e5f-b4ba8b86dc55",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "0638955f-4624-410d-a4c9-a6dc1c97b4bb",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "cbe78d24-3995-4c14-a458-2a39332ece0e",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "43e8cf30-11d4-4a39-bc80-686e028f4ed8",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "52cbf1ad-da15-404b-b020-b23b0980365d",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "c7d2d56e-aa90-43da-8e3e-840197ebc7ac",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-18T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-19T00:00:00.000Z",
+    "dayNumber": 26,
+    "phase": "Набор",
+    "type": "LOWER",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "82da5626-0245-4891-9d5c-b1467397d686",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "d4729884-4744-4f57-bb82-827bc5fd7242",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "7453b829-da86-448b-9de1-efb3ad5449be",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "88cc2641-84d1-4407-9108-2bad172e5a35",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "f31fff73-929c-4757-8f1c-898cd9820754",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "f683cbbf-e204-40fb-8fca-2594ce74082d",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "73626da4-d4db-4603-bee5-ad10e37726b7",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "ab4e02e3-785d-48d8-8585-ad010a717f92",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-19T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-20T00:00:00.000Z",
+    "dayNumber": 27,
+    "phase": "Набор",
+    "type": "REST",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "d01c67ab-85c8-4a8b-bf92-a26c699428ce",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-20T00:00:00.000Z"
+      },
+      {
+        "id": "8e42ae94-786d-40ec-94c4-15b2b1979bd8",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-20T00:00:00.000Z"
+      },
+      {
+        "id": "7c3d7e99-f7db-4864-8b24-1636f93d0264",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1050,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-20T00:00:00.000Z"
+      },
+      {
+        "id": "23040f5a-9d81-4b3f-b471-38b26b6421fd",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-20T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-21T00:00:00.000Z",
+    "dayNumber": 28,
+    "phase": "Набор",
+    "type": "PUSH",
+    "baseCalories": 3600,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "42f49804-c8d1-41a4-af33-1cfcf86b8807",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "7e713d4e-e29b-4220-979e-f0b7b749a686",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "c46fac99-ec5a-4234-8ca9-a0888b0e54a3",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "3beeadc5-2274-49eb-ab27-89698f4384db",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1000,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "adde5355-232d-4fa0-a4bb-d5f211c4e20c",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "d6abb5c8-8628-4e2f-b796-61fc9dafed05",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "e84ca87c-9555-4987-a940-93fdf4596816",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "d4a2557f-5ac9-457c-936e-040c0108374a",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-21T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-22T00:00:00.000Z",
+    "dayNumber": 29,
+    "phase": "Основной набор",
+    "type": "PULL",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "e7d80ab9-ddba-4e43-ad24-6a7da8259145",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "4ac65567-bd58-4c31-8685-cab98a9d9f30",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "b0eb59a0-3476-41f7-a317-581f0c7059bf",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "070d885c-a1d6-4bd4-901e-b9ff778bc083",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "07eeddd8-1c57-412f-b210-418433f78dd8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "44992460-060d-4f5c-a697-136f9e76ed22",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "b7d44950-3535-463c-beca-d6000c3f8f7c",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "ceaec56c-66fa-4951-a197-1bc940e4e5bd",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-22T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-23T00:00:00.000Z",
+    "dayNumber": 30,
+    "phase": "Основной набор",
+    "type": "LEGS",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "916fdcf0-19bc-45d4-a512-1e2bc324b3f7",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "0700c480-fadf-49f1-ad7f-8869dd6e4634",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "1f80b5ed-e018-48e6-bbb7-ece98a96292a",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "b1b1c1ac-c298-4417-a5e7-63fea6ad3f20",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "ac584563-c01e-4179-9887-1cf6a5dd8917",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "d263bdd9-af89-44a2-9a32-da5491110d5d",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "34e046f5-1bba-447a-bd0c-b9a1622b9236",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "d1640b97-262f-4aae-b41c-00ae02091712",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-23T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-24T00:00:00.000Z",
+    "dayNumber": 31,
+    "phase": "Основной набор",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "fd857576-1ab3-4554-966c-fe6c65327015",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-24T00:00:00.000Z"
+      },
+      {
+        "id": "be1226f0-96fb-4463-bcd4-99edca1dc44c",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-24T00:00:00.000Z"
+      },
+      {
+        "id": "b57b67d3-89ce-4460-b0b3-8b046a58bf10",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-24T00:00:00.000Z"
+      },
+      {
+        "id": "ca57911f-fe61-4125-ad7e-77c88c764a8c",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-24T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-25T00:00:00.000Z",
+    "dayNumber": 32,
+    "phase": "Основной набор",
+    "type": "UPPER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9f10a2f6-8ce4-4551-82db-47abe44ae0c3",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "53a7447c-a87e-47e7-85ce-af9a6b21e30b",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "ffa6d8a2-bc6e-4203-a3a0-f2c523032992",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "e044696d-7b02-4a03-94d9-311439891839",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "0dcdb703-74b5-4b26-ae16-fcc841167ee5",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "69cea0d4-1b2b-4514-8979-16ffcd9e1411",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "c8883f7f-24ac-49eb-a619-39a50a027fa8",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "2f014402-5bc0-478e-a85c-e623d9514fc4",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "24856d3a-719f-4ea1-af9b-86061f818f77",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-26T00:00:00.000Z",
+    "dayNumber": 33,
+    "phase": "Основной набор",
+    "type": "LOWER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "c8918b66-5bf6-4c40-bb5f-e3a11247ae4d",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "da05269e-a5bc-4291-83c9-5b49ee85c990",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "530b16f3-b447-48c8-bf97-3f648610af77",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "1992eb1b-934e-4e48-b48f-539afd8ab8fe",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "7c3777cc-21cc-422d-ac0b-881490cb0130",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "c372b263-9f1a-4e9e-99e6-29c78c821787",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "41c3243b-1cf8-4e2f-8c0f-34abf9ee2af0",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "186b3b11-1923-4146-a507-c1c0c5f37b74",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-26T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-27T00:00:00.000Z",
+    "dayNumber": 34,
+    "phase": "Основной набор",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "fbc72e9c-0729-4084-b8e8-1cd113a4fd8e",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-27T00:00:00.000Z"
+      },
+      {
+        "id": "6d5d9edb-3b0d-424d-87f9-9aebba16336c",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-27T00:00:00.000Z"
+      },
+      {
+        "id": "b9ffe2f0-c61f-4ca5-92f1-28aff1461145",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-27T00:00:00.000Z"
+      },
+      {
+        "id": "0a60c3f3-4f79-4b66-9796-fcb138a12389",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-27T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-05-28T00:00:00.000Z",
+    "dayNumber": 35,
+    "phase": "Основной набор",
+    "type": "PUSH",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "69a9e64b-fe8f-4677-bde3-ff62ae653449",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "5c8148ba-ea55-4cda-b98e-2791ee28835d",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "cfab4b97-89a5-4ffa-8a31-b95ffa6ec082",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "6abc1bad-0288-4dae-bea0-3ff5ddbe6cc8",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "2112bd1b-c059-4a29-9f0d-f359d105d318",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "134fc0bb-55e7-40be-b1bb-53defebc24dd",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "0a203f29-8468-4a55-879b-32342b9d57de",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "e931846b-9474-4073-ba51-b7b2ee7420ed",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29T00:00:00.000Z",
+    "dayNumber": 36,
+    "phase": "Основной набор",
+    "type": "PULL",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9b67b3f4-a676-4773-9a7a-7018aef9b3c7",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "36bec281-d568-442e-8ee6-252984a53f0c",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "242734ff-0a58-458b-a603-2531460d6e9c",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "51883d38-8d63-4e65-9d8a-d7fbb484cc64",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "4e1b4126-e463-49da-8ce9-872f9d7553d6",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "f035833a-7c11-4ebd-8c4b-169092280ef2",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "f7373a08-8498-451e-b30f-4faa773e7dff",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "d30c2225-eaec-47e0-989a-3a64882e10e8",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30T00:00:00.000Z",
+    "dayNumber": 37,
+    "phase": "Основной набор",
+    "type": "LEGS",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "ee62a968-bf15-4ebe-8831-3c8507609c6e",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "2fef6c9a-fe1f-4218-97aa-a275e176b1db",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "251509da-3992-423d-b193-f630b8e5aa86",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "06618310-e207-46b2-997a-3cd808da195e",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "229a4267-934e-40d2-96be-3dceaf3b4b81",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "d5ac2b25-7ab2-4178-9f7c-af12bb2b3591",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "e91d1556-3eea-4c14-858a-2be8f8684852",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "03081d78-b8e2-4324-a972-dbec545dc89c",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-30T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31T00:00:00.000Z",
+    "dayNumber": 38,
+    "phase": "Основной набор",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "8642eeb9-0402-47e8-a546-cf28b95e3f76",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-31T00:00:00.000Z"
+      },
+      {
+        "id": "0f5535f6-3eb0-436e-afde-b570e560f77a",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-31T00:00:00.000Z"
+      },
+      {
+        "id": "a57ae4b1-9464-442b-a343-efe3a730c501",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-31T00:00:00.000Z"
+      },
+      {
+        "id": "46cd6ea8-064a-4d4c-a2df-d6569eb34f58",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-05-31T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-01T00:00:00.000Z",
+    "dayNumber": 39,
+    "phase": "Основной набор",
+    "type": "UPPER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9fb9d39b-60f5-43d6-a9e6-49db3faac195",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "6371892f-49f2-40ca-adaa-8ee81036e027",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "c7d21639-5bce-4d52-8f8a-1e534dce3d92",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "0521ed56-fba8-4719-9bd0-f6e1ac6287bc",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "e7bd3be9-2f61-46fc-b3cb-76e4ec047148",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "99eaaae2-122d-4745-b0b4-3a95bd06b50d",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "7208ee44-f21d-4029-84ad-d0e3fd7c84a0",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "e9d75489-5388-4393-856e-599a2310b46c",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "87bcff48-8f38-417e-9fc0-ddef2917aa6f",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-01T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-02T00:00:00.000Z",
+    "dayNumber": 40,
+    "phase": "Основной набор",
+    "type": "LOWER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "e600b30f-16ba-4846-bd2b-b41bfe269087",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "9b8dcf7c-0a24-4252-a9d6-b830c80c6067",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "26b4ff80-ccd3-4a9d-8270-ac499a891b77",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "578d40af-1f68-4f7c-b460-17399b9d47d9",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "99b9b9d2-0488-48ed-a280-141023610ddb",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "69675555-87dd-48e1-8997-f8290af193ef",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "df34727a-492f-4174-8e32-359d6bce040b",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "b6433585-0fe4-49ce-91ae-6ee72b253c43",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-02T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-03T00:00:00.000Z",
+    "dayNumber": 41,
+    "phase": "Основной набор",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "4628d3ce-6f52-4fb0-a42f-c709ed980148",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "9862a482-9300-4557-b258-591ac97377e2",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "245f3b88-0bae-4242-bac2-e05bc2fbcf91",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "1d93006e-d079-4758-a3ed-d9893018b77b",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-03T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-04T00:00:00.000Z",
+    "dayNumber": 42,
+    "phase": "Основной набор",
+    "type": "PUSH",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "146a624c-d9ea-4ca8-ae1f-2dd19f13d3cf",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "8a361305-5195-4198-8bd1-a93c42aec372",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "e5a6e3a8-d710-4f50-a628-c4c2b4a27715",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "dbcd93d2-5ea2-4638-9155-7bb366cb0441",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "0ca1e434-bc74-47a2-a17c-09966279b4b9",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "89c367fa-2b36-4983-9a6e-f497255549b7",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "31cfed69-d33e-4481-9bc3-8f19f67436da",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "46978dc5-06b5-41a0-9c22-972fc29c96cf",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-04T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-05T00:00:00.000Z",
+    "dayNumber": 43,
+    "phase": "Deload",
+    "type": "PULL",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "7bf3215d-5b97-4a2f-b436-c66b183a82e9",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "204d6c51-1710-49e8-b01a-5b267d0dc863",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "fb831dfd-bb3a-4fc3-89d7-20dbac1827d7",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "f2782132-0fb0-4a61-9bb4-dca9f8f2302f",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "00bdadac-a1b6-4165-8a06-9d9e384cff79",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "1afd8687-7b6b-4268-883a-b44af35a4594",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "9c13023a-055f-48f2-bcf3-5e24d0782917",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "6c094469-f81e-4899-9c12-f793b6663613",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-05T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-06T00:00:00.000Z",
+    "dayNumber": 44,
+    "phase": "Deload",
+    "type": "LEGS",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "05795183-53fb-440a-a077-c304f459f75e",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "68ea6d89-03cb-4d9b-9bcc-9b13caa1d1e0",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "8db4ef87-c46f-482e-b651-8b251d97e279",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "2c1b5080-4f62-442e-b588-bf6e21758984",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "754ccfc8-1a06-4b71-b7e0-eaf240f79493",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ae05ecb3-8fbc-49cc-9d26-aff3e2f9e6b1",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "2743590c-a2f7-4ceb-8e2d-c38633f31302",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "78338eca-6e0b-4151-93aa-fd97a21d205b",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-07T00:00:00.000Z",
+    "dayNumber": 45,
+    "phase": "Deload",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "11efdd2b-6481-4be7-a14b-9aa51b4de746",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-07T00:00:00.000Z"
+      },
+      {
+        "id": "3b79e89c-d7b2-46aa-b9e8-e56581bba013",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-07T00:00:00.000Z"
+      },
+      {
+        "id": "3e6b2445-ad69-48f2-bbbe-b91e7244f7da",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-07T00:00:00.000Z"
+      },
+      {
+        "id": "bfc48792-92c0-4ef4-99bf-3c448a1e6d7e",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-07T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-08T00:00:00.000Z",
+    "dayNumber": 46,
+    "phase": "Deload",
+    "type": "UPPER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "82882995-9ffb-45f1-8a3b-70dc59413423",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "5ae5df36-f56c-49fa-a6f4-d3d7ee22c207",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "c69ccc9e-d07d-4b7c-9679-981cc45b1faa",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "1717d0fb-9c50-419c-a8cd-5ce7c955c99c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "9380f33f-e927-417f-bae0-696dad7e1ce3",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "c0e08d10-57fe-4812-9181-00426bac15c0",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "79337d65-542c-447c-82b5-7063d14203d4",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "8e439704-21aa-4ae8-a059-09ad72f97c50",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "b64a8b27-5a06-42a9-824e-fd117168f7b3",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-08T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-09T00:00:00.000Z",
+    "dayNumber": 47,
+    "phase": "Deload",
+    "type": "LOWER",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "7d456f17-c91f-4d9a-85cc-69e73f230235",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "1569e1bf-bf04-47a1-9d2d-9c36ad84b60f",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "e933b4d5-7b3a-4c77-a1a9-0433e54b8a76",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "fc663f61-7371-4f53-9704-0d95616d82c2",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "d48c09ea-4e28-43fe-9993-420d0bb69d7c",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "70973fe4-ca24-46d1-a97d-f7c75a572196",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "5f763d52-a27f-42ad-9ab0-ef0540835519",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "d57e8a73-6363-4440-81df-cffa9c556252",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-09T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-10T00:00:00.000Z",
+    "dayNumber": 48,
+    "phase": "Deload",
+    "type": "REST",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "db318763-bde5-4e7d-bbd5-ae658b578c49",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "id": "0ca2b36c-422f-4f48-ad9c-0eca6b289b44",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "id": "304b975c-6d5f-4356-aa97-f30e83a265aa",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1250,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "id": "d6264f35-33e9-4c64-a2c4-20a7d37f49f8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 700,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-10T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-11T00:00:00.000Z",
+    "dayNumber": 49,
+    "phase": "Deload",
+    "type": "PUSH",
+    "baseCalories": 3800,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "8becedf1-1927-4fc3-bf92-23960aa5aed8",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "bae99a88-2a8a-4153-ad09-8d6c6d1c3273",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "17283e71-621b-4ef2-b534-f668a63a40d9",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "63243efd-8077-4833-8146-131dd577e373",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "fb2d55cc-ae60-42d5-b4fd-302ab7929ee9",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 630,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "7e639562-aa39-4cb3-8330-c6e31f00b7a2",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "9ab675d8-044a-42fe-9212-8ac6c7e5c779",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "id": "e1bd5970-d3a3-431c-87b5-5e9838a98f11",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12T00:00:00.000Z",
+    "dayNumber": 50,
+    "phase": "Финальный рывок",
+    "type": "PULL",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "a9dfa58a-589b-4316-912c-0945286e1e95",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "e1245a34-76fb-4534-986b-1c0bb6cad98f",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "c8aeeda3-b1b0-4a73-91f8-896ad6f6caa5",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "3e1d0305-25b0-4e7c-9c78-e20daa2ee733",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "85fc1979-9ad3-405d-bce8-b28f25f12126",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "81fab5af-d798-4a1a-a4a8-8ad2994bac1f",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "39b43beb-b233-4621-a2d0-7e4bfdfbb21b",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      },
+      {
+        "id": "c9ca7b2a-5990-40e5-b22a-4378f602f2b7",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-12T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-13T00:00:00.000Z",
+    "dayNumber": 51,
+    "phase": "Финальный рывок",
+    "type": "LEGS",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "ebd731e1-c628-4199-bd13-68ea065fcb1c",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "dcf18ed2-9748-4b5c-84fe-ed388230a8cc",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "34d4c288-de5a-4b62-b99f-ade4e725e8c4",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "751986e2-5251-460f-86cc-713e0e32b5e1",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "03eb7676-b1aa-4831-ab40-99627afa5fb4",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "a267baf7-7ccd-4a37-816f-a10fa642d51e",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "f8ab78c6-ef08-40e9-b8f9-a4a1c4633212",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      },
+      {
+        "id": "a5b38ec6-dd75-4518-a795-964e6bafc2d8",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-13T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-14T00:00:00.000Z",
+    "dayNumber": 52,
+    "phase": "Финальный рывок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "84f5d17c-89b6-44df-9b86-a6576a98bdda",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "af163cf8-5953-41ff-909c-e5f4d8375806",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "5198841a-47d8-4ec7-9a99-ca21f45b2a42",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "d8958282-0ca8-43f6-8ea9-2c68e47159f4",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-14T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-15T00:00:00.000Z",
+    "dayNumber": 53,
+    "phase": "Финальный рывок",
+    "type": "UPPER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "956ba908-325e-412a-bf31-e67851935794",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "14d7ad93-fc4a-47c2-bd49-af5d8bd15d39",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "01cc6530-69d7-4ae2-8a47-6363f505e4be",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "30cee474-a56b-4abc-b6df-f1608bc8396c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "e99c1534-a58c-4216-968f-22f911cc6fc8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ebfedc6d-5f45-4d9d-9219-93fdde114811",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "c5455143-8bbf-4ee3-9f11-bda827025009",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "e73c4d84-4832-4e01-b263-9ee139ebe25c",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      },
+      {
+        "id": "f6fa0b1b-963e-4683-8e25-cbc56ca74b15",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16T00:00:00.000Z",
+    "dayNumber": 54,
+    "phase": "Финальный рывок",
+    "type": "LOWER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "6389e732-f565-4e9a-bb9b-b113b67f63ec",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "016cdebc-5c1c-40b0-9f04-1cb56308bf88",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "211c3309-b420-48a2-8973-01d2dfa2c2b8",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "31c3c059-44ab-4c9e-a2ba-79f774c6ddb9",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "01ad99b4-feeb-40eb-9a90-37ec9b0beb3a",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "5a46c48a-e2a9-47b4-b871-0dbccb9772e7",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "91693340-51b9-48d3-bc06-a085b97e45de",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      },
+      {
+        "id": "e80e5950-843c-4d3e-b706-f6b6e86aa1fb",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-17T00:00:00.000Z",
+    "dayNumber": 55,
+    "phase": "Финальный рывок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "a2204c2f-20e0-4732-a01b-16e700c7c944",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-17T00:00:00.000Z"
+      },
+      {
+        "id": "fe4d7bea-c018-4f90-a3c0-59ff43992910",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-17T00:00:00.000Z"
+      },
+      {
+        "id": "fd0b9cfd-74e4-4865-b6b6-2c8537447429",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-17T00:00:00.000Z"
+      },
+      {
+        "id": "45d4f74b-2843-4c21-b4b0-eb73c274b9c8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-17T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-18T00:00:00.000Z",
+    "dayNumber": 56,
+    "phase": "Финальный рывок",
+    "type": "PUSH",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "78530701-6c2d-4069-8c22-48f7c08ace47",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "65be49e2-074c-4bde-8508-f835f46c08f4",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "d62a5fac-3a08-47ec-98f7-494c3fc1b218",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "b5aca13e-df46-49cc-b51f-2b9d5eb3e266",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "d6cb480a-15ac-4de2-8de0-d283f48a03f8",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "2b35a437-81df-4804-b600-c6000fb865d5",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "b6c228cf-5dbc-4c3a-a272-8617cd983827",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "id": "083d7e2f-1ada-4cd6-9b91-fc30c1043564",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-18T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19T00:00:00.000Z",
+    "dayNumber": 57,
+    "phase": "Финальный рывок",
+    "type": "PULL",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "3aabba4d-81e0-4e89-b9a6-64d34e0cc6dc",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "92758160-4fb7-413f-8d09-34f51e30f9e7",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "8bc7e741-dbab-4d3d-9223-d689dc3ca56f",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "8e95dae8-7d97-4238-87a0-386bd364185a",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "ca74337c-afa6-45e9-b58e-753fa99fa07b",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "a8417a1f-8d6f-454b-b315-ccc933cdd046",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "03293d6b-fb92-425d-bed8-2ffc23e4e6a7",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "id": "6bf71411-2ec0-40db-9d4f-1daac4955018",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-19T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-20T00:00:00.000Z",
+    "dayNumber": 58,
+    "phase": "Финальный рывок",
+    "type": "LEGS",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "7d827b82-ca6d-4aa9-8bfb-62c71a20ca60",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "ad982149-69e5-4a71-ad67-f8d0b1e1e591",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "2fe28835-5514-4e9b-a358-102460a18b69",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "9c4e7c97-8e85-4024-a6a4-e918606ce4ca",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "abf465d0-6a0a-4f48-b54e-f3eb460e42cf",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "00a62978-bcda-49b5-aa14-4b6f881701c2",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "2af8d41b-cb59-4822-8d6f-c0a3d4e424f0",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "id": "65889557-49dc-4509-a4a8-7c7629a260e1",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-20T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21T00:00:00.000Z",
+    "dayNumber": 59,
+    "phase": "Финальный рывок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "1a5033a8-2a96-4947-b044-ca63981c7784",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-21T00:00:00.000Z"
+      },
+      {
+        "id": "1769c99e-bcef-49a9-a584-2107d167aaa5",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-21T00:00:00.000Z"
+      },
+      {
+        "id": "e3e8e218-e94f-4d41-a9e3-f23d63115653",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-21T00:00:00.000Z"
+      },
+      {
+        "id": "3c0e361d-3b47-4eba-be5d-fd38e4c3326b",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-21T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-22T00:00:00.000Z",
+    "dayNumber": 60,
+    "phase": "Финальный рывок",
+    "type": "UPPER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "d264724d-96f8-46d8-9ce4-4ccef318ff11",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "7047521b-5716-4aba-a634-b88f299ed564",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "11ba679e-a6cd-4e7b-a40d-85f6593e2fc5",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "f786f346-033b-471f-8eb7-8e0d530e5653",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "e27681f0-7d2f-49a7-8bfb-a2aeb772ab9a",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "3365e876-f426-4037-b61d-99d7f6db0f83",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "dc9de9db-cf83-4fb7-8a9f-8c4f61942990",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "cc17b6c2-f5a1-40fa-ac62-0ccc0ec64525",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      },
+      {
+        "id": "44fee52a-dbdd-4fbe-bb4f-262319ef0e0c",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-22T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-23T00:00:00.000Z",
+    "dayNumber": 61,
+    "phase": "Финальный рывок",
+    "type": "LOWER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "4cf8f05b-4551-4340-80b7-e7decdc58611",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "4c6cd661-11bd-4541-9607-c7ab88afc2fa",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "dd21f830-2d7c-4db0-8eb5-2c42fdd0204d",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "b23dcf0b-c190-431b-90bd-265fee7bc89c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "93ee1169-b0ea-475c-bed6-41ed674d2058",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "98cef766-bd14-4d85-ab86-f58998cabb37",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "45b22efb-132c-4d2d-a7d3-59477de9eae9",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "id": "8ac61642-9366-409a-b052-35b0c4a04830",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-23T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-24T00:00:00.000Z",
+    "dayNumber": 62,
+    "phase": "Финальный рывок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "0e814a95-93b4-4d2d-bacf-61a044ce9c0f",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "id": "8b8c2d1e-e4ee-484e-930e-94456d63d4b6",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "id": "d1918777-bc53-4079-903f-d833e3c807e2",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "id": "6f95f816-fdf7-4ae4-ba26-0548fa185d94",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-24T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-25T00:00:00.000Z",
+    "dayNumber": 63,
+    "phase": "Финальный рывок",
+    "type": "PUSH",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9d9a3436-f33e-4553-b8e8-4bcc0b30834a",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "73243601-a83d-4d31-801a-818a1bde53a8",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "d0c1f612-d6d9-479c-b8a2-d950aa1292f7",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "a9fc696e-7d93-4b8d-afbb-ea8639006ca7",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "93ca64e5-171b-426d-912d-ba6aa4e0b2ea",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "4651c605-4d6b-4d88-add5-c91f73c2305b",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "5254bb35-4f78-4c6f-92f4-4b4efde77acd",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "id": "4d824205-c5c2-4001-a4bc-95825847c46b",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26T00:00:00.000Z",
+    "dayNumber": 64,
+    "phase": "Финальный блок",
+    "type": "PULL",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9c2459e3-38b3-4544-9732-bfe7559f59a6",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "d3130fff-1bc4-418f-b580-9f7efc1ea5f9",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "ed38c341-0d57-413d-a9ff-9e2603bcd842",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "d82d5c6e-0c3d-4da8-a615-1a3b409a178c",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "707ef60f-66a0-41b9-a8b4-c09477e593e3",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "70f90727-6d59-4abd-97a6-18a0cf18357f",
+        "order": 1,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "245f8056-bb75-4592-ba3a-0781996e285c",
+        "order": 2,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "id": "d18f5154-617e-4a88-a77c-62735ace1123",
+        "order": 3,
+        "name": "Горизонтальная тяга",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "55-70 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-26T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-27T00:00:00.000Z",
+    "dayNumber": 65,
+    "phase": "Финальный блок",
+    "type": "LEGS",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "68b77492-13c0-4eac-9f52-f4ee8ce5ec8c",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "d662b914-3e54-4282-8605-76813267275c",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "c990532f-6e70-49e7-b6ec-6832523e2408",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 950,
+        "items": "Дома: Картофель/Рис, Мясо",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "ab9ed65e-7904-469b-bd8e-5d6c918b4024",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "c1b408f2-2d2c-484b-bbda-5da36fd55992",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "287bdb5d-3a9c-4dd5-bb1b-9022a020af01",
+        "order": 1,
+        "name": "Становая тяга",
+        "sets": 4,
+        "reps": "5-6",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "f9d14ce7-f7c5-4b7f-b450-bcdf3c44b068",
+        "order": 2,
+        "name": "Гакк-присед",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-110 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "id": "4212dd72-ae11-4f14-8ff6-b72631aa4f62",
+        "order": 3,
+        "name": "Болгарские выпады",
+        "sets": 3,
+        "reps": "10",
+        "weight": "16-24 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-27T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-28T00:00:00.000Z",
+    "dayNumber": 66,
+    "phase": "Финальный блок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "1dda91ba-2530-47bb-aacf-2092b5ddb49f",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-28T00:00:00.000Z"
+      },
+      {
+        "id": "26b90cf5-d4d5-460c-83ac-338d64fbff40",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 1000,
+        "items": "Дома: Гречка/Рис, Мясо/Рыба",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-28T00:00:00.000Z"
+      },
+      {
+        "id": "47df8020-f09a-4dfc-8221-8c1cbc83ab0d",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-28T00:00:00.000Z"
+      },
+      {
+        "id": "d15ffd3f-f7d7-4e14-addd-c111b738c577",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-28T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-06-29T00:00:00.000Z",
+    "dayNumber": 67,
+    "phase": "Финальный блок",
+    "type": "UPPER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "9af8593e-780a-4694-a1f4-1942f8695e4c",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "8992d435-800f-46cc-b308-bde49f878d91",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "70e88a1d-9b53-4b86-8de7-897c60fad3fb",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "9747d007-4acb-4ddf-815a-8ed136ccff5b",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "d6caf28c-668b-402a-bb29-21b2fe384487",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "5f9efc8f-ff65-4e61-a008-9ef404012728",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "c9817b44-f44f-44ae-b199-f99a28437ed4",
+        "order": 2,
+        "name": "Подтягивания с весом",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "9ee5abef-8810-4deb-b0fc-d97e4e097c5a",
+        "order": 3,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      },
+      {
+        "id": "acc47e61-65ec-454a-98d6-325ad86cf908",
+        "order": 4,
+        "name": "Тяга штанги",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "70-85 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-30T00:00:00.000Z",
+    "dayNumber": 68,
+    "phase": "Финальный блок",
+    "type": "LOWER",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "3deb2b52-8f89-46cb-a278-887b0683cbda",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "5cc703a7-345f-4f86-a53c-66b92f05f19b",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "94352b56-8b7c-498f-92a3-d5e643e637ed",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "db5280cb-dcdc-4cd2-bfbc-7001dafa4539",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "2749e2b3-a7e9-46c4-ba90-70ae7e278aea",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "2b4abc8b-604c-49ac-b00f-a1140a8f3308",
+        "order": 1,
+        "name": "Приседания",
+        "sets": 4,
+        "reps": "5-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "328be560-8d94-44ba-a396-f4746443fa28",
+        "order": 2,
+        "name": "Румынская тяга",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "80-100 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "id": "d2c77bff-576c-458c-a9a3-9e636c5c401a",
+        "order": 3,
+        "name": "Жим ногами",
+        "sets": 3,
+        "reps": "10-12",
+        "weight": "150-200 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-06-30T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-01T00:00:00.000Z",
+    "dayNumber": 69,
+    "phase": "Финальный блок",
+    "type": "REST",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "4ec526af-342d-4e80-a9a6-2c4d5e05fd0f",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Овсянка 120г, Яйца, Банан, Арахисовая паста",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "id": "8e5f0660-ecfd-4049-9600-25c93acc939d",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир + Салат",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "id": "87d0dc48-d818-4b16-8d5e-193505c93cbe",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1200,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-01T00:00:00.000Z"
+      },
+      {
+        "id": "bda91c3f-d64f-43e2-9519-f5515f315b0f",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 850,
+        "items": "Протеин-шейк/Творог",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-01T00:00:00.000Z"
+      }
+    ],
+    "exercises": []
+  },
+  {
+    "date": "2026-07-02T00:00:00.000Z",
+    "dayNumber": 70,
+    "phase": "Финальный блок",
+    "type": "PUSH",
+    "baseCalories": 3900,
+    "isCompleted": false,
+    "meals": [
+      {
+        "id": "e2ed0d38-ffa6-4dea-9330-faa024372f45",
+        "time": "09:00",
+        "name": "Завтрак",
+        "calories": 1000,
+        "items": "Углеводы, Яйца, Банан",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "4d14ee9c-ef11-4fe9-a419-a28be31e7ba8",
+        "time": "12:30",
+        "name": "Протеин (после зала)",
+        "calories": 120,
+        "items": "1 скуп на воде",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "88db8d05-478b-4233-90d3-d46700896e2e",
+        "time": "13:00",
+        "name": "Обед",
+        "calories": 850,
+        "items": "Restopolis: Мясо/Рыба + Гарнир",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "044f267c-c772-4431-a288-bca25a83fc23",
+        "time": "18:30",
+        "name": "Ужин",
+        "calories": 1150,
+        "items": "Углеводы + Мясо/Рыба + Овощи",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "c11fdb7f-a446-4827-8d4f-6ec05ed42b35",
+        "time": "23:00",
+        "name": "Перед сном",
+        "calories": 780,
+        "items": "Творог/Протеин-шейк",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "929026b4-ba31-4fa6-8b6d-cf043537973e",
+        "order": 1,
+        "name": "Жим штанги лёжа",
+        "sets": 4,
+        "reps": "6-8",
+        "weight": "По прогрессии",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "23e4d982-7529-47b7-8a11-678c235c67a7",
+        "order": 2,
+        "name": "Жим гантелей наклонная",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "28-36 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      },
+      {
+        "id": "8ea1a4f2-90fe-4ab9-b0fc-5c786c49b508",
+        "order": 3,
+        "name": "Жим штанги сидя",
+        "sets": 3,
+        "reps": "8-10",
+        "weight": "45-57.5 кг",
+        "isCompleted": false,
+        "dailyPlanId": "2026-07-02T00:00:00.000Z"
+      }
+    ]
+  }
+]
