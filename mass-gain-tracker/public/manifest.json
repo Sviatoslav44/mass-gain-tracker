@@ -1,0 +1,16 @@
+{
+  "name": "Mass Gain Tracker",
+  "short_name": "Gain",
+  "description": "Strict 70-day mass gain PWA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/globe.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
