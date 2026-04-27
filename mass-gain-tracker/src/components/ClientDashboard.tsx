@@ -1,33 +1,51 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { format } from "date-fns";
 
-export default function ClientDashboard({ plan, todayStr }: { plan: any, todayStr: string }) {
+export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
   const [weight, setWeight] = useState<string | null>(null);
   const [completedMeals, setCompletedMeals] = useState<Record<string, boolean>>({});
   const [isLoaded, setIsLoaded] = useState(false);
+  const [plan, setPlan] = useState<any>(null);
+  const [todayStr, setTodayStr] = useState("");
 
   useEffect(() => {
-    // Check local storage for today's weight
-    const storedWeight = localStorage.getItem(`weight_${todayStr}`);
-    if (storedWeight) {
-      setWeight(storedWeight);
-    }
-    
-    // Load completed meals
-    const storedMeals = localStorage.getItem(`meals_${todayStr}`);
-    if (storedMeals) {
-      setCompletedMeals(JSON.parse(storedMeals));
+    // 1. Get browser's local today date at midnight
+    const localToday = new Date();
+    localToday.setHours(0, 0, 0, 0);
+    const dateStr = format(localToday, 'dd.MM.yyyy');
+    setTodayStr(dateStr);
+
+    // 2. Find plan in allPlans that matches localToday
+    // The dates in allPlans are "2026-04-24T00:00:00.000Z" representing the UTC midnight of that day.
+    // We want to match the day.
+    const isoDateString = format(localToday, 'yyyy-MM-dd') + "T00:00:00.000Z";
+    const foundPlan = allPlans.find((p: any) => p.date === isoDateString);
+    setPlan(foundPlan);
+
+    if (foundPlan) {
+      // Check local storage for today's weight
+      const storedWeight = localStorage.getItem(`weight_${dateStr}`);
+      if (storedWeight) {
+        setWeight(storedWeight);
+      }
+      
+      // Load completed meals
+      const storedMeals = localStorage.getItem(`meals_${dateStr}`);
+      if (storedMeals) {
+        setCompletedMeals(JSON.parse(storedMeals));
+      }
     }
     
     setIsLoaded(true);
-  }, [todayStr]);
+  }, [allPlans]);
 
   const handleSaveWeight = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const w = formData.get("weight") as string;
-    if (w) {
+    if (w && todayStr) {
       localStorage.setItem(`weight_${todayStr}`, w);
       setWeight(w);
     }
@@ -36,10 +54,22 @@ export default function ClientDashboard({ plan, todayStr }: { plan: any, todaySt
   const toggleMeal = (mealId: string) => {
     const newState = { ...completedMeals, [mealId]: !completedMeals[mealId] };
     setCompletedMeals(newState);
-    localStorage.setItem(`meals_${todayStr}`, JSON.stringify(newState));
+    if (todayStr) {
+      localStorage.setItem(`meals_${todayStr}`, JSON.stringify(newState));
+    }
   };
 
-  if (!isLoaded) return <div className="min-h-screen bg-slate-900"></div>;
+  if (!isLoaded) return <div className="min-h-screen bg-slate-900 flex items-center justify-center"><div className="w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div></div>;
+
+  if (!plan) {
+    return (
+      <div className="min-h-screen bg-slate-900 text-slate-100 p-6 flex flex-col items-center justify-center">
+        <h1 className="text-2xl font-bold mb-2">План на сегодня не найден.</h1>
+        <p className="text-slate-400 text-center">Возможно, 70-дневный план завершен или еще не начался.</p>
+        <p className="text-emerald-500 font-bold mt-4">Сегодня: {todayStr}</p>
+      </div>
+    );
+  }
 
   if (!weight) {
     return (
