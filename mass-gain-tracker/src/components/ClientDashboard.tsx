@@ -6,6 +6,7 @@ import { format, addDays, subDays } from "date-fns";
 export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
   const [weight, setWeight] = useState<string | null>(null);
   const [completedMeals, setCompletedMeals] = useState<Record<string, boolean>>({});
+  const [completedExercises, setCompletedExercises] = useState<Record<string, boolean>>({});
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentDate, setCurrentDate] = useState<Date>(new Date());
 
@@ -35,6 +36,13 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
       } else {
         setCompletedMeals({});
       }
+
+      const storedExercises = localStorage.getItem(`exercises_${todayStr}`);
+      if (storedExercises) {
+        setCompletedExercises(JSON.parse(storedExercises));
+      } else {
+        setCompletedExercises({});
+      }
     }
     
     setIsLoaded(true);
@@ -55,6 +63,14 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
     setCompletedMeals(newState);
     if (todayStr) {
       localStorage.setItem(`meals_${todayStr}`, JSON.stringify(newState));
+    }
+  };
+
+  const toggleExercise = (exId: string) => {
+    const newState = { ...completedExercises, [exId]: !completedExercises[exId] };
+    setCompletedExercises(newState);
+    if (todayStr) {
+      localStorage.setItem(`exercises_${todayStr}`, JSON.stringify(newState));
     }
   };
 
@@ -147,15 +163,23 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
                   <p className="text-slate-400 text-sm mt-1">{plan.exercises.length} упражнений</p>
                 </div>
               </div>
-              <div className="space-y-2 mt-2">
-                {plan.exercises.map((ex: any, idx: number) => (
-                  <div key={idx} className="flex justify-between items-center p-3 bg-slate-900/50 rounded-xl">
-                    <div>
-                      <p className="text-sm font-bold text-white">{ex.order}. {ex.name}</p>
-                      <p className="text-xs text-slate-400">{ex.sets}x{ex.reps} • {ex.weight}</p>
+              <div className="space-y-2 mt-4">
+                {plan.exercises.map((ex: any, idx: number) => {
+                  const isCompleted = !!completedExercises[ex.id];
+                  return (
+                    <div key={ex.id} onClick={() => toggleExercise(ex.id)} className={`cursor-pointer flex justify-between items-center p-4 bg-slate-900/50 rounded-xl border ${isCompleted ? 'border-emerald-500/50 bg-emerald-900/20' : 'border-slate-800'} active:scale-[0.98] transition-all`}>
+                      <div className="flex gap-4 items-center">
+                        <div className={`shrink-0 w-6 h-6 rounded-md border-2 flex items-center justify-center transition-colors ${isCompleted ? 'bg-emerald-500 border-emerald-500' : 'border-slate-500'}`}>
+                          {isCompleted && <svg className="w-4 h-4 text-slate-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>}
+                        </div>
+                        <div>
+                          <p className={`text-sm font-bold ${isCompleted ? 'text-slate-400 line-through' : 'text-white'}`}>{ex.order}. {ex.name}</p>
+                          <p className="text-xs text-slate-400 mt-1">{ex.sets}x{ex.reps} • <span className="text-emerald-300 font-semibold">{ex.weight}</span></p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </section>

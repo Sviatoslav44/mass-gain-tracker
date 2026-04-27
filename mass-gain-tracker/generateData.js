@@ -1,7 +1,139 @@
 const fs = require('fs');
 
+const mdContent = fs.readFileSync('/home/ubuntu/.openclaw/media/inbound/PLAN_UPDATED_24apr_2jul---f4c954e2-be06-4f78-b412-c03f27c9ded2.md', 'utf-8');
+
+// Parse exercises from Markdown
+const dateExercisesMap = {};
+
+const lines = mdContent.split('\n');
+let currentDate = null;
+let currentTable = false;
+
+// We need a mapping from "DD.MM" to 2026 Date object string
+function parseDDMM(ddmm) {
+  const [d, m] = ddmm.split('.');
+  const date = new Date(Date.UTC(2026, parseInt(m) - 1, parseInt(d)));
+  return date.toISOString();
+}
+
+for (let i = 0; i < lines.length; i++) {
+  const line = lines[i].trim();
+  
+  // Match: ### Понедельник 27.04 — UPPER
+  const dateMatch = line.match(/^### .*? (\d{2}\.\d{2}) — (.*)$/);
+  if (dateMatch) {
+    const ddmm = dateMatch[1];
+    currentDate = parseDDMM(ddmm);
+    dateExercisesMap[currentDate] = [];
+    currentTable = false;
+    continue;
+  }
+
+  // Detect table
+  if (currentDate && line.startsWith('| # |')) {
+    currentTable = true;
+    continue; // skip header
+  }
+  if (currentTable && line.startsWith('|---|')) {
+    continue; // skip separator
+  }
+
+  if (currentTable) {
+    if (!line.startsWith('|')) {
+      currentTable = false; // end of table
+      continue;
+    }
+    
+    // Parse table row
+    // | 1 | Жим штанги лёжа | 4×8 | 80 кг |
+    const cols = line.split('|').map(s => s.trim()).filter(Boolean);
+    if (cols.length === 4) {
+      const [orderStr, name, setsReps, weight] = cols;
+      const order = parseInt(orderStr);
+      let sets = 0;
+      let reps = "";
+      if (setsReps.includes('×')) {
+        [sets, reps] = setsReps.split('×');
+      } else if (setsReps.includes('x')) {
+        [sets, reps] = setsReps.split('x');
+      }
+      
+      dateExercisesMap[currentDate].push({
+        order,
+        name,
+        sets: parseInt(sets),
+        reps,
+        weight
+      });
+    }
+  }
+}
+
+// Fixed meals according to the exact markdown
+const mealTemplates = {
+  1: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г (сухая) на молоке 300 мл, 4 яйца (яичница), Банан, 25 г арахисовой пасты" },
+    { time: "12:30", name: "Протеин", calories: 120, items: "1 скуп (30 г) на воде в шейкере" },
+    { time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + углеводный гарнир + салат-бар + хлеб" },
+    { time: "18:30", name: "Ужин", calories: 1000, items: "Рис 140 г (сухой), Куриные бёдра/грудка 250 г, Овощи 150 г + 1 ст.л. оливкового масла, Хлеб с сыром 30 г" },
+    { time: "23:00", name: "Перед сном", calories: 630, items: "Протеин-шейк: 1 скуп (30 г) + молоко 400 мл + овсянка 50 г + банан — в блендер" }
+  ],
+  2: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Омлет из 5 яиц + сыр 40 г, 2 тоста с маслом, Молоко 300 мл, Банан" },
+    { time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
+    { time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
+    { time: "18:30", name: "Ужин", calories: 1000, items: "Макароны 140 г (сухие), Говяжий фарш 250 г (болоньезе), Салат с маслом, Хлеб + сыр" },
+    { time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + мёд 1 ст.л. + орехи 40 г + банан" }
+  ],
+  3: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г на молоке 300 мл, 3 яйца, 25 г арахисовой пасты, Банан" },
+    { time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
+    { time: "18:30", name: "Ужин", calories: 1050, items: "Картофель 400 г, Курица 250 г, Овощи + масло, Хлеб с сыром" },
+    { time: "23:00", name: "Перед сном", calories: 700, items: "Протеин-шейк: 1.5 скупа (45 г) + молоко 400 мл + овсянка 50 г + арахисовая паста 20 г" }
+  ],
+  4: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Яичница из 4 яиц, 2 тоста + авокадо 1/2, Молоко 300 мл, Банан" },
+    { time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
+    { time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
+    { time: "18:30", name: "Ужин", calories: 1000, items: "Гречка 130 г (сухая), Свинина/говядина 250 г, Салат с маслом, Хлеб с сыром" },
+    { time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + орехи 40 г + мёд + банан" }
+  ],
+  5: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г на молоке 300 мл, 4 яйца, Арахисовая паста 25 г, Банан" },
+    { time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
+    { time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
+    { time: "18:30", name: "Ужин", calories: 1000, items: "Рис 140 г (сухой), Рыба (лосось/треска) 250 г, Овощи + масло, Хлеб" },
+    { time: "23:00", name: "Перед сном", calories: 630, items: "Протеин-шейк: 1 скуп + молоко 400 мл + овсянка 50 г + банан" }
+  ],
+  6: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Блины: 120 г овсянки + 3 яйца + молоко — смешать, жарить, Мёд 2 ст.л., Банан, Молоко 250 мл" },
+    { time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
+    { time: "13:00", name: "Обед ДОМА", calories: 950, items: "Картофель 350 г или рис 140 г, Курица/говядина 250 г, Овощи + масло" },
+    { time: "18:30", name: "Ужин", calories: 900, items: "Макароны 130 г (сухие), Куриные бёдра 250 г, Салат с маслом, Хлеб с сыром" },
+    { time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + орехи 40 г + мёд + банан" }
+  ],
+  0: [
+    { time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г + молоко 300 мл + банан + арахисовая паста 25 г, 4 яйца" },
+    { time: "13:00", name: "Обед ДОМА", calories: 1000, items: "Гречка 130 г (сухая), Мясо (любое) 250 г, Овощи + масло, Хлеб" },
+    { time: "18:30", name: "Ужин", calories: 950, items: "Рис 130 г (сухой), Рыба 250 г, Салат + масло, Хлеб с сыром" },
+    { time: "23:00", name: "Перед сном", calories: 650, items: "Протеин-шейк: 1.5 скупа + молоко 400 мл + овсянка 50 г + банан" }
+  ]
+};
+
 const startDate = new Date('2026-04-24T00:00:00.000Z');
 const endDate = new Date('2026-07-02T00:00:00.000Z');
+
+function getType(date) {
+  const day = date.getDay(); // 0 = Sun, 1 = Mon ...
+  if (day === 1) return "UPPER";
+  if (day === 2) return "LOWER";
+  if (day === 3) return "REST";
+  if (day === 4) return "PUSH";
+  if (day === 5) return "PULL";
+  if (day === 6) return "LEGS";
+  if (day === 0) return "REST";
+  return "REST";
+}
 
 function getDayInfo(dayNumber) {
   const week = Math.ceil(dayNumber / 7);
@@ -28,143 +160,7 @@ function getDayInfo(dayNumber) {
   return { phase, baseCalories };
 }
 
-function getType(date) {
-  const day = date.getDay(); // 0 = Sun, 1 = Mon ...
-  if (day === 1) return "UPPER";
-  if (day === 2) return "LOWER";
-  if (day === 3) return "REST";
-  if (day === 4) return "PUSH";
-  if (day === 5) return "PULL";
-  if (day === 6) return "LEGS";
-  if (day === 0) return "REST";
-  return "REST";
-}
-
-function getMeals(dayOfWeek, baseCalories) {
-  let meals = [];
-  if (dayOfWeek === 1) { // Monday
-    meals = [
-      { id: 'm_1_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г (сухая) на молоке 300 мл, 4 яйца (яичница), Банан, 25 г арахисовой пасты" },
-      { id: 'm_1_2', time: "12:30", name: "Протеин", calories: 120, items: "1 скуп (30 г) на воде в шейкере" },
-      { id: 'm_1_3', time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + углеводный гарнир + салат-бар + хлеб" },
-      { id: 'm_1_4', time: "18:30", name: "Ужин", calories: 1000, items: "Рис 140 г (сухой), Куриные бёдра/грудка 250 г, Овощи 150 г + 1 ст.л. оливкового масла, Хлеб с сыром 30 г" },
-      { id: 'm_1_5', time: "23:00", name: "Перед сном", calories: 630, items: "Протеин-шейк: 1 скуп (30 г) + молоко 400 мл + овсянка 50 г + банан" }
-    ];
-  } else if (dayOfWeek === 2) { // Tuesday
-    meals = [
-      { id: 'm_2_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Омлет из 5 яиц + сыр 40 г, 2 тоста с маслом, Молоко 300 мл, Банан" },
-      { id: 'm_2_2', time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
-      { id: 'm_2_3', time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
-      { id: 'm_2_4', time: "18:30", name: "Ужин", calories: 1000, items: "Макароны 140 г (сухие), Говяжий фарш 250 г (болоньезе), Салат с маслом, Хлеб + сыр" },
-      { id: 'm_2_5', time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + мёд 1 ст.л. + орехи 40 г + банан" }
-    ];
-  } else if (dayOfWeek === 3) { // Wednesday
-    meals = [
-      { id: 'm_3_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г на молоке 300 мл, 3 яйца, 25 г арахисовой пасты, Банан" },
-      { id: 'm_3_3', time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
-      { id: 'm_3_4', time: "18:30", name: "Ужин", calories: 1050, items: "Картофель 400 г, Курица 250 г, Овощи + масло, Хлеб с сыром" },
-      { id: 'm_3_5', time: "23:00", name: "Перед сном", calories: 700, items: "Протеин-шейк: 1.5 скупа (45 г) + молоко 400 мл + овсянка 50 г + арахисовая паста 20 г" }
-    ];
-  } else if (dayOfWeek === 4) { // Thursday
-    meals = [
-      { id: 'm_4_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Яичница из 4 яиц, 2 тоста + авокадо 1/2, Молоко 300 мл, Банан" },
-      { id: 'm_4_2', time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
-      { id: 'm_4_3', time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
-      { id: 'm_4_4', time: "18:30", name: "Ужин", calories: 1000, items: "Гречка 130 г (сухая), Свинина/говядина 250 г, Салат с маслом, Хлеб с сыром" },
-      { id: 'm_4_5', time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + орехи 40 г + мёд + банан" }
-    ];
-  } else if (dayOfWeek === 5) { // Friday
-    meals = [
-      { id: 'm_5_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г на молоке 300 мл, 4 яйца, Арахисовая паста 25 г, Банан" },
-      { id: 'm_5_2', time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
-      { id: 'm_5_3', time: "13:00", name: "Обед (Restopolis)", calories: 850, items: "Мясное/рыбное блюдо + гарнир + салат-бар + хлеб" },
-      { id: 'm_5_4', time: "18:30", name: "Ужин", calories: 1000, items: "Рис 140 г (сухой), Рыба (лосось/треска) 250 г, Овощи + масло, Хлеб" },
-      { id: 'm_5_5', time: "23:00", name: "Перед сном", calories: 630, items: "Протеин-шейк: 1 скуп + молоко 400 мл + овсянка 50 г + банан" }
-    ];
-  } else if (dayOfWeek === 6) { // Saturday
-    meals = [
-      { id: 'm_6_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Блины: 120 г овсянки + 3 яйца + молоко — смешать, жарить, Мёд 2 ст.л., Банан, Молоко 250 мл" },
-      { id: 'm_6_2', time: "12:30", name: "Протеин", calories: 120, items: "1 скуп на воде" },
-      { id: 'm_6_3', time: "13:00", name: "Обед ДОМА", calories: 950, items: "Картофель 350 г или рис 140 г, Курица/говядина 250 г, Овощи + масло" },
-      { id: 'm_6_4', time: "18:30", name: "Ужин", calories: 900, items: "Макароны 130 г (сухие), Куриные бёдра 250 г, Салат с маслом, Хлеб с сыром" },
-      { id: 'm_6_5', time: "23:00", name: "Перед сном", calories: 630, items: "Творог 300 г + орехи 40 г + мёд + банан" }
-    ];
-  } else if (dayOfWeek === 0) { // Sunday
-    meals = [
-      { id: 'm_0_1', time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г + молоко 300 мл + банан + арахисовая паста 25 г, 4 яйца" },
-      { id: 'm_0_3', time: "13:00", name: "Обед ДОМА", calories: 1000, items: "Гречка 130 г (сухая), Мясо (любое) 250 г, Овощи + масло, Хлеб" },
-      { id: 'm_0_4', time: "18:30", name: "Ужин", calories: 950, items: "Рис 130 г (сухой), Рыба 250 г, Салат + масло, Хлеб с сыром" },
-      { id: 'm_0_5', time: "23:00", name: "Перед сном", calories: 650, items: "Протеин-шейк: 1.5 скупа + молоко 400 мл + овсянка 50 г + банан" }
-    ];
-  }
-
-  // Deep clone to avoid id issues
-  meals = JSON.parse(JSON.stringify(meals));
-
-  // Adjust macros
-  if (baseCalories === 3800) {
-    let dinner = meals.find(m => m.name.includes("Ужин"));
-    if (dinner) dinner.calories += 200;
-  } else if (baseCalories === 3900) {
-    let dinner = meals.find(m => m.name.includes("Ужин"));
-    let night = meals.find(m => m.name.includes("Перед сном"));
-    if (dinner) dinner.calories += 150;
-    if (night) night.calories += 150;
-  }
-
-  return meals;
-}
-
-const exercisesMap = {
-  "UPPER": [
-    { order: 1, name: "Жим штанги лёжа", sets: 4, reps: "6-8", weight: "По прогрессии" },
-    { order: 2, name: "Подтягивания с весом", sets: 4, reps: "6-8", weight: "По прогрессии" },
-    { order: 3, name: "Жим гантелей наклонная 30°", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 4, name: "Тяга штанги в наклоне", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 5, name: "Жим гантелей сидя", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 6, name: "Махи в стороны", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 7, name: "Разгибания на блоке (трицепс)", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 8, name: "Сгибания штанга (бицепс)", sets: 3, reps: "10-12", weight: "По прогрессии" }
-  ],
-  "LOWER": [
-    { order: 1, name: "Приседания со штангой", sets: 4, reps: "5-8", weight: "По прогрессии" },
-    { order: 2, name: "Румынская тяга", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 3, name: "Жим ногами", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 4, name: "Сгибания ног лёжа", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 5, name: "Разгибания ног", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 6, name: "Подъём на носки стоя", sets: 4, reps: "12-15", weight: "По прогрессии" },
-    { order: 7, name: "Подъём ног в висе", sets: 3, reps: "12-15", weight: "Собственный вес" }
-  ],
-  "PUSH": [
-    { order: 1, name: "Жим штанги лёжа", sets: 4, reps: "6-8", weight: "По прогрессии" },
-    { order: 2, name: "Жим гантелей наклонная", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 3, name: "Жим штанги сидя", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 4, name: "Разводки гантелей", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 5, name: "Махи в стороны", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 6, name: "Разгибания верёвка (трицепс)", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 7, name: "Отжимания на брусьях", sets: 3, reps: "8-10", weight: "По прогрессии" }
-  ],
-  "PULL": [
-    { order: 1, name: "Подтягивания с весом", sets: 4, reps: "6-8", weight: "По прогрессии" },
-    { order: 2, name: "Тяга штанги в наклоне", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 3, name: "Горизонтальная тяга (блок)", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 4, name: "Махи в наклоне (задняя дельта)", sets: 3, reps: "12-15", weight: "По прогрессии" },
-    { order: 5, name: "Шраги с гантелями", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 6, name: "Сгибания штанга (бицепс)", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 7, name: "Молотки с гантелями", sets: 3, reps: "10-12", weight: "По прогрессии" }
-  ],
-  "LEGS": [
-    { order: 1, name: "Становая тяга", sets: 4, reps: "5-6", weight: "По прогрессии" },
-    { order: 2, name: "Гакк-присед", sets: 3, reps: "8-10", weight: "По прогрессии" },
-    { order: 3, name: "Болгарские выпады", sets: 3, reps: "10/ногу", weight: "По прогрессии" },
-    { order: 4, name: "Сгибания ног", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 5, name: "Hip thrust", sets: 3, reps: "10-12", weight: "По прогрессии" },
-    { order: 6, name: "Подъём на носки сидя", sets: 4, reps: "15-20", weight: "По прогрессии" },
-    { order: 7, name: "Планка/Ab wheel", sets: 3, reps: "45 сек / 12", weight: "Собственный вес" }
-  ]
-};
-
-async function main() {
+function generate() {
   const plans = [];
   let currDate = new Date(startDate);
   let dayNumber = 1;
@@ -173,19 +169,25 @@ async function main() {
     const type = getType(currDate);
     const { phase, baseCalories } = getDayInfo(dayNumber);
     const dayOfWeek = currDate.getDay();
-
     const isoDate = currDate.toISOString();
-    
-    // Add unique IDs to meals
-    const meals = getMeals(dayOfWeek, baseCalories).map((m, i) => ({
-      ...m,
-      id: `${isoDate}_meal_${i}`
-    }));
 
-    const exercises = type !== "REST" ? exercisesMap[type].map((e, i) => ({
-      ...e,
-      id: `${isoDate}_ex_${i}`
-    })) : [];
+    let meals = JSON.parse(JSON.stringify(mealTemplates[dayOfWeek]));
+    
+    // Assign IDs and adjust calories
+    meals = meals.map((m, i) => {
+      m.id = `${isoDate}_meal_${i}`;
+      if (baseCalories === 3800 && m.name.includes("Ужин")) {
+        m.calories += 200;
+      }
+      if (baseCalories >= 3900) {
+        if (m.name.includes("Ужин")) m.calories += 150;
+        if (m.name.includes("Перед сном")) m.calories += 150;
+      }
+      return m;
+    });
+
+    let exercises = dateExercisesMap[isoDate] || [];
+    exercises = exercises.map((ex, i) => ({ ...ex, id: `${isoDate}_ex_${i}` }));
 
     plans.push({
       date: isoDate,
@@ -201,8 +203,8 @@ async function main() {
     dayNumber++;
   }
 
-  fs.writeFileSync('/home/ubuntu/.openclaw/workspace/mass-gain-tracker/planData.json', JSON.stringify(plans, null, 2));
+  fs.writeFileSync('planData.json', JSON.stringify(plans, null, 2));
   console.log('planData.json generated successfully');
 }
 
-main();
+generate();

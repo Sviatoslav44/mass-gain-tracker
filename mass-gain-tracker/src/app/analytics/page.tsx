@@ -1,14 +1,128 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceArea } from 'recharts';
+import { format, addDays } from "date-fns";
+
 export default function AnalyticsPage() {
+  const [data, setData] = useState<any[]>([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    const startDate = new Date('2026-04-24T00:00:00.000Z');
+    const endDate = new Date('2026-07-02T00:00:00.000Z');
+    
+    let curr = new Date(startDate);
+    const chartData = [];
+    
+    let lastWeight = 82.5;
+
+    while (curr <= endDate) {
+      const dateStr = format(curr, 'dd.MM.yyyy');
+      const w = localStorage.getItem(`weight_${dateStr}`);
+      
+      let weightVal = null;
+      if (w) {
+        weightVal = parseFloat(w);
+        lastWeight = weightVal;
+      }
+
+      // Calculate Target Range based on week
+      const diffTime = Math.abs(curr.getTime() - startDate.getTime());
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      const week = Math.ceil(diffDays / 7) || 1;
+      
+      let targetMin = 82.5;
+      let targetMax = 83;
+      
+      if (week === 1) { targetMin = 83; targetMax = 84; }
+      else if (week === 2) { targetMin = 84; targetMax = 85; }
+      else if (week === 3) { targetMin = 85; targetMax = 86; }
+      else if (week === 4) { targetMin = 86; targetMax = 86.5; }
+      else if (week === 5) { targetMin = 86.5; targetMax = 87; }
+      else if (week === 6) { targetMin = 87; targetMax = 87.5; }
+      else if (week === 7) { targetMin = 87.5; targetMax = 88; }
+      else if (week === 8) { targetMin = 88; targetMax = 88.5; }
+      else if (week === 9) { targetMin = 89; targetMax = 89.5; }
+      else if (week >= 10) { targetMin = 89.5; targetMax = 90; }
+
+      chartData.push({
+        date: format(curr, 'dd.MM'),
+        weight: weightVal,
+        targetMin,
+        targetMax
+      });
+      
+      curr = addDays(curr, 1);
+    }
+    
+    setData(chartData);
+    setIsLoaded(true);
+  }, []);
+
+  if (!isLoaded) return <div className="min-h-screen bg-slate-900" />;
+
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 pb-24">
-      <header className="bg-slate-800/80 backdrop-blur-md sticky top-0 z-40 border-b border-slate-700 p-6 pt-12 text-center">
-        <h1 className="text-2xl font-bold text-white">Аналитика</h1>
+    <div className="min-h-screen bg-slate-900 text-slate-100 pb-24 font-sans">
+      <header className="bg-slate-800/80 backdrop-blur-md sticky top-0 z-40 border-b border-slate-700 p-6 pt-12 flex justify-between items-center">
+        <div>
+          <h1 className="text-2xl font-bold text-white">Аналитика</h1>
+          <p className="text-emerald-400 font-semibold text-sm tracking-wide mt-1">
+            Прогресс набора массы (82.5 → 90 кг)
+          </p>
+        </div>
       </header>
 
-      <main className="p-6 max-w-md mx-auto space-y-8 flex flex-col items-center justify-center mt-20">
-        <div className="text-6xl mb-4">📈</div>
-        <h2 className="text-xl font-bold text-slate-300">График веса в разработке</h2>
-        <p className="text-slate-500 text-center">Здесь будет отображаться ваш прогресс с 82.5 кг до 90 кг.</p>
+      <main className="p-6 max-w-md mx-auto space-y-8 mt-4">
+        <div className="bg-slate-800 border border-slate-700 rounded-3xl p-4 shadow-xl">
+          <h2 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">График веса</h2>
+          <div className="h-64 w-full -ml-4 text-xs font-semibold">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#334155" vertical={false} />
+                <XAxis 
+                  dataKey="date" 
+                  stroke="#64748b" 
+                  tick={{ fill: '#94a3b8' }} 
+                  tickMargin={10}
+                  minTickGap={20}
+                />
+                <YAxis 
+                  domain={[80, 92]} 
+                  stroke="#64748b" 
+                  tick={{ fill: '#94a3b8' }} 
+                  tickCount={7}
+                  width={40}
+                />
+                <Tooltip 
+                  contentStyle={{ backgroundColor: '#0f172a', border: '1px solid #334155', borderRadius: '12px' }}
+                  itemStyle={{ color: '#fff' }}
+                  labelStyle={{ color: '#94a3b8', marginBottom: '4px' }}
+                />
+                <ReferenceArea y1={82.5} y2={90} fill="#10b981" fillOpacity={0.05} />
+                <Line 
+                  type="monotone" 
+                  dataKey="weight" 
+                  stroke="#10b981" 
+                  strokeWidth={4}
+                  dot={{ r: 4, fill: '#10b981', strokeWidth: 0 }}
+                  activeDot={{ r: 6, fill: '#fff', stroke: '#10b981', strokeWidth: 2 }}
+                  connectNulls={true}
+                  name="Мой вес"
+                />
+                <Line 
+                  type="stepAfter" 
+                  dataKey="targetMax" 
+                  stroke="#64748b" 
+                  strokeWidth={2}
+                  strokeDasharray="5 5"
+                  dot={false}
+                  name="Цель (макс)"
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
       </main>
 
       <BottomNav />
