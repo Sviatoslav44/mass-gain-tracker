@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Mass Gain Tracker",
   description: "Strict 70-day mass gain PWA",
   manifest: "/manifest.json",
+  icons: {
+    apple: "/apple-icon.jpg",
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",

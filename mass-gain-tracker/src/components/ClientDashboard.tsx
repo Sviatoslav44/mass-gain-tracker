@@ -1,45 +1,44 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { format } from "date-fns";
+import { format, addDays, subDays } from "date-fns";
 
 export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
   const [weight, setWeight] = useState<string | null>(null);
   const [completedMeals, setCompletedMeals] = useState<Record<string, boolean>>({});
   const [isLoaded, setIsLoaded] = useState(false);
-  const [plan, setPlan] = useState<any>(null);
-  const [todayStr, setTodayStr] = useState("");
+  const [currentDate, setCurrentDate] = useState<Date>(new Date());
+
+  const todayStr = format(currentDate, 'dd.MM.yyyy');
+  const isoDateString = format(currentDate, 'yyyy-MM-dd') + "T00:00:00.000Z";
+  const plan = allPlans.find((p: any) => p.date === isoDateString);
 
   useEffect(() => {
-    // 1. Get browser's local today date at midnight
+    // Start at local today midnight
     const localToday = new Date();
     localToday.setHours(0, 0, 0, 0);
-    const dateStr = format(localToday, 'dd.MM.yyyy');
-    setTodayStr(dateStr);
+    setCurrentDate(localToday);
+  }, []);
 
-    // 2. Find plan in allPlans that matches localToday
-    // The dates in allPlans are "2026-04-24T00:00:00.000Z" representing the UTC midnight of that day.
-    // We want to match the day.
-    const isoDateString = format(localToday, 'yyyy-MM-dd') + "T00:00:00.000Z";
-    const foundPlan = allPlans.find((p: any) => p.date === isoDateString);
-    setPlan(foundPlan);
-
-    if (foundPlan) {
-      // Check local storage for today's weight
-      const storedWeight = localStorage.getItem(`weight_${dateStr}`);
+  useEffect(() => {
+    if (plan) {
+      const storedWeight = localStorage.getItem(`weight_${todayStr}`);
       if (storedWeight) {
         setWeight(storedWeight);
+      } else {
+        setWeight(null); // Reset if going to a day without weight
       }
       
-      // Load completed meals
-      const storedMeals = localStorage.getItem(`meals_${dateStr}`);
+      const storedMeals = localStorage.getItem(`meals_${todayStr}`);
       if (storedMeals) {
         setCompletedMeals(JSON.parse(storedMeals));
+      } else {
+        setCompletedMeals({});
       }
     }
     
     setIsLoaded(true);
-  }, [allPlans]);
+  }, [currentDate, plan, todayStr]);
 
   const handleSaveWeight = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -59,14 +58,23 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
     }
   };
 
+  const nextDay = () => setCurrentDate(addDays(currentDate, 1));
+  const prevDay = () => setCurrentDate(subDays(currentDate, 1));
+
   if (!isLoaded) return <div className="min-h-screen bg-slate-900 flex items-center justify-center"><div className="w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div></div>;
 
   if (!plan) {
     return (
       <div className="min-h-screen bg-slate-900 text-slate-100 p-6 flex flex-col items-center justify-center">
-        <h1 className="text-2xl font-bold mb-2">План на сегодня не найден.</h1>
-        <p className="text-slate-400 text-center">Возможно, 70-дневный план завершен или еще не начался.</p>
-        <p className="text-emerald-500 font-bold mt-4">Сегодня: {todayStr}</p>
+        <div className="flex items-center gap-4 mb-8">
+          <button onClick={prevDay} className="p-3 bg-slate-800 rounded-xl hover:bg-slate-700">{'<'}</button>
+          <h1 className="text-2xl font-bold">{todayStr}</h1>
+          <button onClick={nextDay} className="p-3 bg-slate-800 rounded-xl hover:bg-slate-700">{'>'}</button>
+        </div>
+        <p className="text-slate-400 text-center">План на этот день не найден.</p>
+        
+        {/* Nav included here too to prevent getting stuck */}
+        <BottomNav />
       </div>
     );
   }
@@ -75,6 +83,7 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
     return (
       <div className="fixed inset-0 bg-slate-900 z-50 flex flex-col items-center justify-center p-6 text-slate-100">
         <h2 className="text-3xl font-extrabold mb-8 text-emerald-400 text-center">Утреннее взвешивание</h2>
+        <h3 className="text-xl mb-4 font-bold">{todayStr}</h3>
         <form onSubmit={handleSaveWeight} className="w-full max-w-sm flex flex-col gap-6 bg-slate-800 p-8 rounded-3xl border border-slate-700 shadow-2xl">
           <p className="text-slate-400 text-center">Введите ваш вес натощак (в кг) для разблокировки плана на день.</p>
           <input 
@@ -95,22 +104,35 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
             Сохранить и продолжить
           </button>
         </form>
+        {/* Add escape hatch navigation */}
+        <div className="mt-8 flex gap-4">
+          <button onClick={prevDay} className="px-4 py-2 bg-slate-800 rounded-lg">{'<'} Вчера</button>
+          <button onClick={nextDay} className="px-4 py-2 bg-slate-800 rounded-lg">Завтра {'>'}</button>
+        </div>
       </div>
     );
   }
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 pb-24">
-      <header className="bg-slate-800/80 backdrop-blur-md sticky top-0 z-40 border-b border-slate-700 p-6 pt-12 flex justify-between items-center">
-        <div>
-          <h1 className="text-2xl font-bold text-white">{todayStr}</h1>
-          <p className="text-emerald-400 font-semibold text-sm tracking-wide mt-1">
-            День {plan.dayNumber}/70 • {plan.phase}
-          </p>
+      <header className="bg-slate-800/80 backdrop-blur-md sticky top-0 z-40 border-b border-slate-700 p-4 pt-10 flex justify-between items-center">
+        <div className="flex items-center gap-3">
+          <button onClick={prevDay} className="p-2 bg-slate-700 rounded-lg active:bg-slate-600 transition-colors">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
+          </button>
+          <div>
+            <h1 className="text-xl font-bold text-white leading-tight">{todayStr}</h1>
+            <p className="text-emerald-400 font-semibold text-xs tracking-wide">
+              День {plan.dayNumber}/70 • {plan.phase}
+            </p>
+          </div>
+          <button onClick={nextDay} className="p-2 bg-slate-700 rounded-lg active:bg-slate-600 transition-colors">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+          </button>
         </div>
         <div className="text-right">
-          <p className="text-xs text-slate-400 uppercase tracking-widest">Калории</p>
-          <p className="text-xl font-black text-white">{plan.baseCalories}</p>
+          <p className="text-[10px] text-slate-400 uppercase tracking-widest">Калории</p>
+          <p className="text-lg font-black text-white leading-tight">{plan.baseCalories}</p>
         </div>
       </header>
 
@@ -118,13 +140,22 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
         {plan.type !== 'REST' && (
           <section>
             <h2 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4">Тренировка</h2>
-            <div className="block bg-slate-800 border border-slate-700 rounded-3xl p-6 flex items-center justify-between">
-              <div>
-                <h3 className="text-xl font-bold text-emerald-400">{plan.type}</h3>
-                <p className="text-slate-400 text-sm mt-1">{plan.exercises.length} упражнений</p>
+            <div className="block bg-slate-800 border border-slate-700 rounded-3xl p-6 flex flex-col gap-4">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-xl font-bold text-emerald-400">{plan.type}</h3>
+                  <p className="text-slate-400 text-sm mt-1">{plan.exercises.length} упражнений</p>
+                </div>
               </div>
-              <div className="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center text-white">
-                →
+              <div className="space-y-2 mt-2">
+                {plan.exercises.map((ex: any, idx: number) => (
+                  <div key={idx} className="flex justify-between items-center p-3 bg-slate-900/50 rounded-xl">
+                    <div>
+                      <p className="text-sm font-bold text-white">{ex.order}. {ex.name}</p>
+                      <p className="text-xs text-slate-400">{ex.sets}x{ex.reps} • {ex.weight}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </section>
@@ -157,14 +188,28 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
         </section>
       </main>
 
-      <nav className="fixed bottom-0 w-full bg-slate-800/90 backdrop-blur-xl border-t border-slate-700 pb-safe">
-        <div className="flex justify-around p-4 max-w-md mx-auto">
-          <div className="text-emerald-400 font-semibold flex flex-col items-center gap-1 cursor-pointer">
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-            <span className="text-[10px]">План</span>
-          </div>
-        </div>
-      </nav>
+      <BottomNav />
     </div>
+  );
+}
+
+function BottomNav() {
+  return (
+    <nav className="fixed bottom-0 w-full bg-slate-800/90 backdrop-blur-xl border-t border-slate-700 pb-safe z-50">
+      <div className="flex justify-around p-4 max-w-md mx-auto">
+        <a href="/" className="text-emerald-400 font-semibold flex flex-col items-center gap-1 transition-colors">
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+          <span className="text-[10px]">План</span>
+        </a>
+        <a href="/analytics" className="text-slate-500 hover:text-slate-300 font-semibold flex flex-col items-center gap-1 transition-colors">
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" /></svg>
+          <span className="text-[10px]">Аналитика</span>
+        </a>
+        <a href="/shopping" className="text-slate-500 hover:text-slate-300 font-semibold flex flex-col items-center gap-1 transition-colors">
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+          <span className="text-[10px]">Покупки</span>
+        </a>
+      </div>
+    </nav>
   );
 }
