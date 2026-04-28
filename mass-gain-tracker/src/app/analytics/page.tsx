@@ -12,8 +12,8 @@ export default function AnalyticsPage() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    const startDate = new Date('2026-04-14T00:00:00.000Z');
-    const endDate = new Date('2026-06-12T00:00:00.000Z');
+    const startDate = new Date('2026-04-24T00:00:00.000Z');
+    const endDate = new Date('2026-07-02T00:00:00.000Z');
     
     let curr = new Date(startDate);
     const chartData = [];

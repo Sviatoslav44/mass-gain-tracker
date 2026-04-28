@@ -58,7 +58,7 @@ export default function ShoppingPage() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    const start = new Date('2026-04-14T00:00:00.000Z');
+    const start = new Date('2026-04-24T00:00:00.000Z');
     const now = new Date();
     const diffTime = Math.abs(now.getTime() - start.getTime());
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
