@@ -88,8 +88,8 @@ export default function WorkoutsDashboard({ allPlans }: { allPlans: any[] }) {
                           <p className={`text-base font-bold leading-tight pr-2 ${isCompleted ? 'text-slate-400 line-through' : 'text-white'}`}>
                             {ex.order}. {ex.name}
                           </p>
-                          <button onClick={() => setActiveGif(ex.gif)} className="p-2 bg-black/30 rounded-lg hover:bg-black/50 transition-colors border border-white/5 text-xs text-emerald-400 font-bold shrink-0">
-                            ▶ GIF
+                          <button onClick={() => setActiveGif(ex.gif)} className="p-2 bg-black/30 rounded-lg hover:bg-black/50 transition-colors border border-white/5 text-xs text-emerald-400 font-bold shrink-0 flex items-center gap-1">
+                            <span>▶</span> GIF
                           </button>
                         </div>
                         <div className="flex gap-2 mt-2">
@@ -110,13 +110,29 @@ export default function WorkoutsDashboard({ allPlans }: { allPlans: any[] }) {
         )}
       </main>
 
-      {/* GIF Modal */}
+      {/* GIF Modal with Error Fallback */}
       {activeGif && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setActiveGif(null)}>
-          <div className="bg-[#001F3F] border border-white/10 p-4 rounded-3xl w-full max-w-sm relative shadow-2xl" onClick={e => e.stopPropagation()}>
-            <button onClick={() => setActiveGif(null)} className="absolute top-2 right-2 w-8 h-8 bg-black/40 rounded-full flex items-center justify-center text-white hover:bg-black/60">✕</button>
-            <h3 className="text-white font-bold mb-4 ml-2">Техника выполнения</h3>
-            <img src={activeGif} alt="Exercise GIF" className="w-full h-auto rounded-2xl border border-white/10" />
+          <div className="bg-[#001F3F] border border-white/10 p-4 rounded-3xl w-full max-w-sm relative shadow-2xl flex flex-col items-center" onClick={e => e.stopPropagation()}>
+            <button onClick={() => setActiveGif(null)} className="absolute top-3 right-3 w-8 h-8 bg-black/40 rounded-full flex items-center justify-center text-white hover:bg-black/60 z-10">✕</button>
+            <h3 className="text-white font-bold w-full text-left mb-4 px-2">Техника выполнения</h3>
+            <div className="w-full relative rounded-2xl overflow-hidden bg-black/40 min-h-[200px] flex items-center justify-center border border-white/10">
+              <img 
+                src={activeGif} 
+                alt="Exercise GIF" 
+                className="w-full h-auto object-contain"
+                onError={(e) => {
+                  (e.target as HTMLElement).style.display = 'none';
+                  const parent = (e.target as HTMLElement).parentElement;
+                  if (parent) {
+                    const fallback = document.createElement('div');
+                    fallback.className = "flex flex-col items-center justify-center text-slate-400 p-8";
+                    fallback.innerHTML = `<span class="text-6xl mb-4">🏋️‍♂️</span><p class="text-center font-medium">Анимация недоступна</p>`;
+                    parent.appendChild(fallback);
+                  }
+                }}
+              />
+            </div>
           </div>
         </div>
       )}
