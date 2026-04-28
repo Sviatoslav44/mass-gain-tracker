@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { format, addDays, subDays } from "date-fns";
 import BottomNav from "./BottomNav";
 
+const APP_VERSION = "1.0.1";
+
 export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
   const [weight, setWeight] = useState<string | null>(null);
   const [completedMeals, setCompletedMeals] = useState<Record<string, boolean>>({});
@@ -40,6 +42,11 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
     }
     
     setIsLoaded(true);
+
+    if (localStorage.getItem('app_version') !== APP_VERSION) {
+      localStorage.setItem('app_version', APP_VERSION);
+      window.location.reload();
+    }
   }, [currentDate, plan, todayStr]);
 
   const handleSaveWeight = (e: React.FormEvent<HTMLFormElement>) => {

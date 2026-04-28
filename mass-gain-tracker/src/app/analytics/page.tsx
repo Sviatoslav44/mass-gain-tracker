@@ -5,6 +5,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { format, addDays } from "date-fns";
 import BottomNav from "@/components/BottomNav";
 
+const APP_VERSION = "1.0.1";
+
 export default function AnalyticsPage() {
   const [data, setData] = useState<any[]>([]);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -55,6 +57,11 @@ export default function AnalyticsPage() {
     
     setData(chartData);
     setIsLoaded(true);
+
+    if (localStorage.getItem('app_version') !== APP_VERSION) {
+      localStorage.setItem('app_version', APP_VERSION);
+      window.location.reload();
+    }
   }, []);
 
   if (!isLoaded) return <div className="min-h-screen bg-transparent" />;

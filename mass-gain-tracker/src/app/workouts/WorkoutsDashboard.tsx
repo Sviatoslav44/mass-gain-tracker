@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { format, addDays, subDays } from "date-fns";
 import BottomNav from "@/components/BottomNav";
 
+const APP_VERSION = "1.0.1";
+
 export default function WorkoutsDashboard({ allPlans }: { allPlans: any[] }) {
   const [completedExercises, setCompletedExercises] = useState<Record<string, boolean>>({});
   const [isLoaded, setIsLoaded] = useState(false);
@@ -30,6 +32,11 @@ export default function WorkoutsDashboard({ allPlans }: { allPlans: any[] }) {
       }
     }
     setIsLoaded(true);
+
+    if (localStorage.getItem('app_version') !== APP_VERSION) {
+      localStorage.setItem('app_version', APP_VERSION);
+      window.location.reload();
+    }
   }, [currentDate, plan, todayStr]);
 
   const toggleExercise = (exId: string) => {

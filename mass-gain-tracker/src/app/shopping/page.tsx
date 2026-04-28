@@ -50,6 +50,8 @@ const maxList = extendedList.map(item => {
   return item;
 });
 
+const APP_VERSION = "1.0.1";
+
 export default function ShoppingPage() {
   const [week, setWeek] = useState(1);
   const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
@@ -71,6 +73,11 @@ export default function ShoppingPage() {
       setCheckedItems(JSON.parse(saved));
     }
     setIsLoaded(true);
+
+    if (localStorage.getItem('app_version') !== APP_VERSION) {
+      localStorage.setItem('app_version', APP_VERSION);
+      window.location.reload();
+    }
   }, []);
 
   const changeWeek = (newWeek: number) => {

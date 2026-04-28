@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import WorkoutsDashboard from './WorkoutsDashboard';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   const jsonPath = path.join(process.cwd(), 'planData.json');
   const fileContents = fs.readFileSync(jsonPath, 'utf8');
