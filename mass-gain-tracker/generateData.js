@@ -80,6 +80,8 @@ let currentTable = false;
 function parseDDMM(ddmm) {
   const [d, m] = ddmm.split('.');
   const date = new Date(Date.UTC(2026, parseInt(m) - 1, parseInt(d)));
+  // Shift by -10 days to match new plan start (14 April instead of 24 April)
+  date.setDate(date.getDate() - 10);
   return date.toISOString();
 }
 
@@ -188,8 +190,8 @@ const mealTemplates = {
   ]
 };
 
-const startDate = new Date('2026-04-24T00:00:00.000Z');
-const endDate = new Date('2026-07-02T00:00:00.000Z');
+const startDate = new Date('2026-04-14T00:00:00.000Z');
+const endDate = new Date('2026-06-12T00:00:00.000Z');
 
 function getType(date) {
   const day = date.getDay(); // 0 = Sun, 1 = Mon ...
@@ -245,6 +247,12 @@ function generate() {
     meals = meals.map((m, i) => {
       m.id = `${isoDate}_meal_${i}`;
       m.recipe = getRecipe(m.name, m.items);
+      
+      // Update creatine for week 1
+      if (Math.ceil(dayNumber / 7) === 1) {
+        m.items = m.items.replace("Креатин 5 г", "Креатин 20 г");
+      }
+
       if (baseCalories === 3800 && m.name.includes("Ужин")) {
         m.calories += 200;
       }
