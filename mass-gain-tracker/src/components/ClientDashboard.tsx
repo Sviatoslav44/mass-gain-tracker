@@ -76,6 +76,8 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
   const nextDay = () => setCurrentDate(addDays(currentDate, 1));
   const prevDay = () => setCurrentDate(subDays(currentDate, 1));
 
+  const isViewingToday = todayStr === format(new Date(), 'dd.MM.yyyy');
+
   if (!isLoaded) return <div className="min-h-screen flex items-center justify-center"><div className="w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div></div>;
 
   if (!plan) {
@@ -92,7 +94,7 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
     );
   }
 
-  if (!weight && !isEditingWeight) {
+  if (!weight && !isEditingWeight && isViewingToday) {
     return (
       <div className="fixed inset-0 z-50 flex flex-col items-center justify-center p-6 text-slate-100 bg-gradient-to-br from-[#001F3F] to-[#004D40]">
         <h2 className="text-3xl font-extrabold mb-8 text-emerald-400 text-center">Утреннее взвешивание</h2>
