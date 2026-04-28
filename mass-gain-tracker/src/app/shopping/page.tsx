@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import BottomNav from "@/components/BottomNav";
 
 const standardList = [
   "Курица (грудка/бёдра) — 1.8 кг",
@@ -55,7 +56,6 @@ export default function ShoppingPage() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    // Calculate current week based on date
     const start = new Date('2026-04-24T00:00:00.000Z');
     const now = new Date();
     const diffTime = Math.abs(now.getTime() - start.getTime());
@@ -89,7 +89,7 @@ export default function ShoppingPage() {
     localStorage.setItem(`shopping_week_${week}`, JSON.stringify(newState));
   };
 
-  if (!isLoaded) return <div className="min-h-screen bg-slate-900" />;
+  if (!isLoaded) return <div className="min-h-screen bg-transparent" />;
 
   let currentList = standardList;
   let title = "Стандартный список";
@@ -102,8 +102,8 @@ export default function ShoppingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 pb-24 font-sans">
-      <header className="bg-slate-800/80 backdrop-blur-md sticky top-0 z-40 border-b border-slate-700 p-6 pt-12 flex justify-between items-center">
+    <div className="min-h-screen pb-32 font-sans">
+      <header className="bg-white/5 backdrop-blur-xl sticky top-0 z-40 border-b border-white/10 p-6 pt-12 flex justify-between items-center shadow-md">
         <div>
           <h1 className="text-2xl font-bold text-white">Покупки</h1>
           <p className="text-emerald-400 font-semibold text-sm tracking-wide mt-1">
@@ -111,11 +111,11 @@ export default function ShoppingPage() {
           </p>
         </div>
         <div className="flex gap-2">
-          <button onClick={() => changeWeek(Math.max(1, week - 1))} className="p-2 bg-slate-700 rounded-lg active:bg-slate-600 transition-colors">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
+          <button onClick={() => changeWeek(Math.max(1, week - 1))} className="p-2 bg-white/10 rounded-xl border border-white/5 active:bg-white/20 transition-colors">
+            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
           </button>
-          <button onClick={() => changeWeek(Math.min(10, week + 1))} className="p-2 bg-slate-700 rounded-lg active:bg-slate-600 transition-colors">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+          <button onClick={() => changeWeek(Math.min(10, week + 1))} className="p-2 bg-white/10 rounded-xl border border-white/5 active:bg-white/20 transition-colors">
+            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
           </button>
         </div>
       </header>
@@ -127,12 +127,15 @@ export default function ShoppingPage() {
             <div 
               key={idx} 
               onClick={() => toggleItem(item)}
-              className={`cursor-pointer w-full text-left bg-slate-800 border ${isChecked ? 'border-emerald-500/50 bg-emerald-900/10' : 'border-slate-700'} rounded-2xl p-4 flex gap-4 items-center active:scale-[0.98] transition-all`}
+              className={`cursor-pointer w-full text-left bg-white/5 backdrop-blur-xl border ${isChecked ? 'border-emerald-500/30 bg-emerald-900/20' : 'border-white/10'} rounded-2xl p-4 flex gap-4 items-center active:scale-[0.98] transition-all shadow-md relative overflow-hidden`}
             >
-              <div className={`shrink-0 w-6 h-6 rounded-md border-2 flex items-center justify-center transition-colors ${isChecked ? 'bg-emerald-500 border-emerald-500' : 'border-slate-500'}`}>
-                {isChecked && <svg className="w-4 h-4 text-slate-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>}
+              {/* Glass highlight */}
+              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
+
+              <div className={`shrink-0 w-6 h-6 rounded-md border-[1.5px] flex items-center justify-center transition-colors shadow-sm relative z-10 ${isChecked ? 'bg-emerald-500 border-emerald-500' : 'border-white/30 hover:border-white/50 bg-black/20'}`}>
+                {isChecked && <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>}
               </div>
-              <p className={`text-sm font-semibold leading-snug ${isChecked ? 'text-slate-500 line-through decoration-slate-500' : 'text-white'}`}>{item}</p>
+              <p className={`text-sm font-semibold leading-snug relative z-10 ${isChecked ? 'text-slate-400 line-through decoration-slate-500' : 'text-slate-200'}`}>{item}</p>
             </div>
           );
         })}
@@ -140,26 +143,5 @@ export default function ShoppingPage() {
 
       <BottomNav />
     </div>
-  );
-}
-
-function BottomNav() {
-  return (
-    <nav className="fixed bottom-0 w-full bg-slate-800/90 backdrop-blur-xl border-t border-slate-700 pb-safe z-50">
-      <div className="flex justify-around p-4 max-w-md mx-auto">
-        <a href="/" className="text-slate-500 hover:text-slate-300 font-semibold flex flex-col items-center gap-1 transition-colors">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
-          <span className="text-[10px]">План</span>
-        </a>
-        <a href="/analytics" className="text-slate-500 hover:text-slate-300 font-semibold flex flex-col items-center gap-1 transition-colors">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" /></svg>
-          <span className="text-[10px]">Аналитика</span>
-        </a>
-        <a href="/shopping" className="text-emerald-400 font-semibold flex flex-col items-center gap-1 transition-colors">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-          <span className="text-[10px]">Покупки</span>
-        </a>
-      </div>
-    </nav>
   );
 }

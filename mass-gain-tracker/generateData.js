@@ -2,14 +2,81 @@ const fs = require('fs');
 
 const mdContent = fs.readFileSync('/home/ubuntu/.openclaw/media/inbound/PLAN_UPDATED_24apr_2jul---f4c954e2-be06-4f78-b412-c03f27c9ded2.md', 'utf-8');
 
-// Parse exercises from Markdown
-const dateExercisesMap = {};
+// Recipe mappings
+const recipes = {
+  "Завтрак": {
+    "Овсянка": "1. Насыпьте овсянку в тарелку. 2. Залейте горячим молоком или варите 3-5 минут. 3. Пожарьте яйца на сковороде. 4. Добавьте арахисовую пасту и нарезанный банан в кашу.",
+    "Омлет": "1. Разбейте 5 яиц в миску, взбейте с солью. 2. Вылейте на разогретую сковороду. 3. За минуту до готовности посыпьте тертым сыром. 4. Поджарьте тосты, намажьте маслом.",
+    "Блины": "1. Смешайте в блендере овсянку, яйца и немного молока до однородной массы. 2. Выпекайте на сковороде как обычные блины. 3. Полейте медом, подавайте с бананом."
+  },
+  "Обед": {
+    "Restopolis": "Питание в заведении. Выбирайте мясо/рыбу, большую порцию углеводов (рис/гречка) и много овощей из салат-бара.",
+    "Дома": "1. Отварите гарнир (рис/гречка/картофель). 2. Обжарьте или запеките мясо (курица/говядина). 3. Нарежьте свежие овощи и заправьте оливковым маслом."
+  },
+  "Ужин": {
+    "Рис": "1. Промойте рис, отварите до готовности. 2. Запеките рыбу/курицу в духовке (20 мин при 180°C). 3. Подавайте со свежими овощами.",
+    "Макароны": "1. Отварите макароны аль-денте. 2. Обжарьте говяжий фарш с томатной пастой и специями. 3. Смешайте, посыпьте сыром.",
+    "Картофель": "1. Нарежьте картофель дольками, запекайте 30 мин. 2. Обжарьте курицу. 3. Сделайте салат.",
+    "Гречка": "1. Отварите гречку. 2. Обжарьте кусочки нежирной свинины/говядины. 3. Подавайте с овощами."
+  },
+  "Перед сном": {
+    "Протеин": "1. Налейте в блендер молоко. 2. Добавьте протеин, овсянку и банан. 3. Взбейте до однородности.",
+    "Творог": "1. Выложите творог в тарелку. 2. Добавьте ложку меда и горсть орехов. 3. Нарежьте банан."
+  },
+  "Протеин": "1. Налейте 250-300 мл воды в шейкер. 2. Добавьте 1 мерную ложку протеина. 3. Хорошо взболтайте."
+};
 
+function getRecipe(mealName, items) {
+  if (mealName.includes('Завтрак')) {
+    if (items.includes('Омлет')) return recipes['Завтрак']['Омлет'];
+    if (items.includes('Блины')) return recipes['Завтрак']['Блины'];
+    return recipes['Завтрак']['Овсянка'];
+  }
+  if (mealName.includes('Обед')) {
+    if (items.includes('Restopolis')) return recipes['Обед']['Restopolis'];
+    return recipes['Обед']['Дома'];
+  }
+  if (mealName.includes('Ужин')) {
+    if (items.includes('Макароны')) return recipes['Ужин']['Макароны'];
+    if (items.includes('Картофель')) return recipes['Ужин']['Картофель'];
+    if (items.includes('Гречка')) return recipes['Ужин']['Гречка'];
+    return recipes['Ужин']['Рис'];
+  }
+  if (mealName.includes('Перед сном')) {
+    if (items.includes('Творог')) return recipes['Перед сном']['Творог'];
+    return recipes['Перед сном']['Протеин'];
+  }
+  if (mealName.includes('Протеин')) return recipes['Протеин'];
+  return "";
+}
+
+// Exercise GIF mappings (dummy direct realistic links for MVP)
+const exerciseGifs = {
+  "Жим штанги лёжа": "https://media.giphy.com/media/3o7TKnO6Wve6502iJq/giphy.gif",
+  "Подтягивания": "https://media.giphy.com/media/3oz8xSDjJk1wN8pLQA/giphy.gif",
+  "Жим гантелей наклонная": "https://media.giphy.com/media/xT9DPxggC8w6kOqjCM/giphy.gif",
+  "Тяга штанги": "https://media.giphy.com/media/l41YkxvU8c7J7Bba0/giphy.gif",
+  "Приседания": "https://media.giphy.com/media/l0HlJzETeR7P6cZlS/giphy.gif",
+  "Румынская тяга": "https://media.giphy.com/media/3o6Ztg2MgUkcXyCpnG/giphy.gif",
+  "Жим ногами": "https://media.giphy.com/media/xT9DPIlGnuHpr2yOic/giphy.gif",
+  "Становая тяга": "https://media.giphy.com/media/l0HlO4q8nBf7XnOo8/giphy.gif",
+  "Гакк-присед": "https://media.giphy.com/media/3o7TKMJcCO91djtGfe/giphy.gif",
+  "Отжимания на брусьях": "https://media.giphy.com/media/3o7TKrEzvLbgzG1nJ6/giphy.gif"
+};
+
+function getGifForExercise(name) {
+  for (const key of Object.keys(exerciseGifs)) {
+    if (name.includes(key)) return exerciseGifs[key];
+  }
+  return "https://media.giphy.com/media/dummy/giphy.gif"; // Fallback
+}
+
+// Parse exactly from markdown
+let dateExercisesMap = {};
 const lines = mdContent.split('\n');
 let currentDate = null;
 let currentTable = false;
 
-// We need a mapping from "DD.MM" to 2026 Date object string
 function parseDDMM(ddmm) {
   const [d, m] = ddmm.split('.');
   const date = new Date(Date.UTC(2026, parseInt(m) - 1, parseInt(d)));
@@ -19,7 +86,7 @@ function parseDDMM(ddmm) {
 for (let i = 0; i < lines.length; i++) {
   const line = lines[i].trim();
   
-  // Match: ### Понедельник 27.04 — UPPER
+  // Example: ### Понедельник 27.04 — UPPER
   const dateMatch = line.match(/^### .*? (\d{2}\.\d{2}) — (.*)$/);
   if (dateMatch) {
     const ddmm = dateMatch[1];
@@ -29,29 +96,30 @@ for (let i = 0; i < lines.length; i++) {
     continue;
   }
 
-  // Detect table
   if (currentDate && line.startsWith('| # |')) {
     currentTable = true;
-    continue; // skip header
+    continue;
   }
   if (currentTable && line.startsWith('|---|')) {
-    continue; // skip separator
+    continue;
   }
 
   if (currentTable) {
     if (!line.startsWith('|')) {
-      currentTable = false; // end of table
+      currentTable = false;
       continue;
     }
     
-    // Parse table row
     // | 1 | Жим штанги лёжа | 4×8 | 80 кг |
     const cols = line.split('|').map(s => s.trim()).filter(Boolean);
-    if (cols.length === 4) {
-      const [orderStr, name, setsReps, weight] = cols;
-      const order = parseInt(orderStr);
+    if (cols.length >= 4) {
+      const order = parseInt(cols[0]);
+      const name = cols[1];
+      const setsReps = cols[2];
+      const weight = cols[3];
+      
       let sets = 0;
-      let reps = "";
+      let reps = setsReps;
       if (setsReps.includes('×')) {
         [sets, reps] = setsReps.split('×');
       } else if (setsReps.includes('x')) {
@@ -61,15 +129,15 @@ for (let i = 0; i < lines.length; i++) {
       dateExercisesMap[currentDate].push({
         order,
         name,
-        sets: parseInt(sets),
+        sets: parseInt(sets) || 0,
         reps,
-        weight
+        weight,
+        gif: getGifForExercise(name)
       });
     }
   }
 }
 
-// Fixed meals according to the exact markdown
 const mealTemplates = {
   1: [
     { time: "09:00", name: "Завтрак", calories: 1000, items: "Овсянка 120 г (сухая) на молоке 300 мл, 4 яйца (яичница), Банан, 25 г арахисовой пасты" },
@@ -173,9 +241,10 @@ function generate() {
 
     let meals = JSON.parse(JSON.stringify(mealTemplates[dayOfWeek]));
     
-    // Assign IDs and adjust calories
+    // Assign IDs, recipes, and adjust calories
     meals = meals.map((m, i) => {
       m.id = `${isoDate}_meal_${i}`;
+      m.recipe = getRecipe(m.name, m.items);
       if (baseCalories === 3800 && m.name.includes("Ужин")) {
         m.calories += 200;
       }
@@ -187,6 +256,7 @@ function generate() {
     });
 
     let exercises = dateExercisesMap[isoDate] || [];
+    // Ensure IDs are unique
     exercises = exercises.map((ex, i) => ({ ...ex, id: `${isoDate}_ex_${i}` }));
 
     plans.push({
@@ -204,7 +274,7 @@ function generate() {
   }
 
   fs.writeFileSync('planData.json', JSON.stringify(plans, null, 2));
-  console.log('planData.json generated successfully');
+  console.log('planData.json updated successfully with exact weights and recipes.');
 }
 
 generate();

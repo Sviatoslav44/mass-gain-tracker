@@ -9,7 +9,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#0f172a',
+  themeColor: '#001F3F',
 };
 
 export const metadata: Metadata = {
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={`${inter.className} bg-slate-900 text-slate-100 antialiased`}>
+      <body className={`${inter.className} min-h-screen bg-gradient-to-br from-[#001F3F] to-[#004D40] text-slate-100 antialiased`}>
         {children}
       </body>
     </html>
