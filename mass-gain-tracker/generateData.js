@@ -33,7 +33,7 @@ function getRecipe(mealName, items) {
     return recipes['Завтрак']['Овсянка'];
   }
   if (mealName.includes('Обед')) {
-    if (items.includes('Restopolis')) return null;
+    if (mealName.includes('Restopolis')) return null;
     return recipes['Обед']['Дома'];
   }
   if (mealName.includes('Ужин')) {
