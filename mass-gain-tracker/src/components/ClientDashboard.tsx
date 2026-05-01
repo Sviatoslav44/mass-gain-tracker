@@ -217,9 +217,33 @@ export default function ClientDashboard({ allPlans }: { allPlans: any[] }) {
 
                   {/* Expanded Recipe Area */}
                   {isExpanded && meal.recipe && (
-                    <div className="mt-2 pt-4 border-t border-white/10 relative z-10">
-                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Рецепт:</h4>
-                      <p className="text-sm text-slate-200 leading-relaxed bg-black/20 p-4 rounded-2xl border border-white/5">{meal.recipe}</p>
+                    <div className="mt-2 pt-4 border-t border-white/10 relative z-10 space-y-4">
+                      {meal.recipe.ingredients && (
+                        <div>
+                          <h4 className="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Ингредиенты:</h4>
+                          <ul className="text-sm text-slate-200 bg-black/20 p-4 rounded-2xl border border-white/5 list-disc pl-8 space-y-1">
+                            {meal.recipe.ingredients.map((ing: string, i: number) => (
+                              <li key={i}>{ing}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      {meal.recipe.instructions && (
+                        <div>
+                          <h4 className="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Приготовление:</h4>
+                          <div className="text-sm text-slate-200 bg-black/20 p-4 rounded-2xl border border-white/5 space-y-2">
+                            {meal.recipe.instructions.map((step: string, i: number) => (
+                              <p key={i}>{step}</p>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {typeof meal.recipe === 'string' && (
+                        <div>
+                          <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Рецепт:</h4>
+                          <p className="text-sm text-slate-200 leading-relaxed bg-black/20 p-4 rounded-2xl border border-white/5">{meal.recipe}</p>
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
