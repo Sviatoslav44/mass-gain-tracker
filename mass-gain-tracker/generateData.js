@@ -84,16 +84,37 @@ function getRecipe(mealName, items) {
 
 // Exercise GIF mappings (dummy direct realistic links for MVP)
 const exerciseGifs = {
-  "Жим штанги лёжа": null,
-  "Подтягивания": null,
-  "Жим гантелей наклонная": null,
-  "Тяга штанги": null,
-  "Приседания": null,
-  "Румынская тяга": null,
-  "Жим ногами": null,
-  "Становая тяга": null,
-  "Гакк-присед": null,
-  "Отжимания на брусьях": null
+  "Жим штанги лёжа": "https://static.exercisedb.dev/animated/0025.gif",
+  "Подтягивания с весом": "https://static.exercisedb.dev/animated/1053.gif",
+  "Жим гантелей наклонная (30 градусов)": "https://static.exercisedb.dev/animated/0314.gif",
+  "Тяга штанги в наклоне": "https://static.exercisedb.dev/animated/0027.gif",
+  "Жим гантелей сидя": "https://static.exercisedb.dev/animated/0324.gif",
+  "Махи гантелями в стороны": "https://static.exercisedb.dev/animated/0334.gif",
+  "Разгибания на блоке (трицепс)": "https://static.exercisedb.dev/animated/0199.gif",
+  "Сгибания штанги (бицепс)": "https://static.exercisedb.dev/animated/0031.gif",
+  "Приседания со штангой": "https://static.exercisedb.dev/animated/0032.gif",
+  "Румынская тяга": "https://static.exercisedb.dev/animated/0817.gif",
+  "Жим ногами": "https://static.exercisedb.dev/animated/0585.gif",
+  "Сгибания ног лёжа": "https://static.exercisedb.dev/animated/0584.gif",
+  "Разгибания ног сидя": "https://static.exercisedb.dev/animated/0588.gif",
+  "Подъём на носки стоя": "https://static.exercisedb.dev/animated/1376.gif",
+  "Подъём ног в висе": "https://static.exercisedb.dev/animated/0174.gif",
+  "Жим штанги сидя": "https://static.exercisedb.dev/animated/0119.gif",
+  "Разводки гантелей лёжа": "https://static.exercisedb.dev/animated/0308.gif",
+  "Разгибания верёвка (трицепс)": "https://static.exercisedb.dev/animated/0200.gif",
+  "Отжимания на брусьях": "https://static.exercisedb.dev/animated/0154.gif",
+  "Тяга Т-грифа": "https://static.exercisedb.dev/animated/0118.gif",
+  "Горизонтальная тяга (блок)": "https://static.exercisedb.dev/animated/0152.gif",
+  "Махи в наклоне (задняя дельта)": "https://static.exercisedb.dev/animated/0345.gif",
+  "Шраги с гантелями": "https://static.exercisedb.dev/animated/0302.gif",
+  "Молотки с гантелями (бицепс)": "https://static.exercisedb.dev/animated/0313.gif",
+  "Становая тяга": "https://static.exercisedb.dev/animated/0032.gif",
+  "Гакк-присед": "https://static.exercisedb.dev/animated/0467.gif",
+  "Болгарские выпады": "https://static.exercisedb.dev/animated/3103.gif",
+  "Hip thrust (ягодичный мостик)": "https://static.exercisedb.dev/animated/1063.gif",
+  "Подъём на носки сидя": "https://static.exercisedb.dev/animated/0593.gif",
+  "Ab wheel (ролик для пресса)": "https://static.exercisedb.dev/animated/0002.gif",
+  "Планка": "https://static.exercisedb.dev/animated/0458.gif"
 };
 
 function getGifForExercise(name) {
