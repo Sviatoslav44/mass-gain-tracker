@@ -441,7 +441,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_0"
       },
       {
@@ -450,7 +450,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "+5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_1"
       },
       {
@@ -459,7 +459,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "26 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_2"
       },
       {
@@ -468,7 +468,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "65 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_3"
       },
       {
@@ -477,7 +477,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "20 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_4"
       },
       {
@@ -486,7 +486,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_5"
       },
       {
@@ -495,7 +495,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "25 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_6"
       },
       {
@@ -504,7 +504,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-27T00:00:00.000Z_ex_7"
       }
     ]
@@ -623,7 +623,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_0"
       },
       {
@@ -632,7 +632,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "75 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_1"
       },
       {
@@ -641,7 +641,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "140 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_2"
       },
       {
@@ -650,7 +650,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_3"
       },
       {
@@ -659,7 +659,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_4"
       },
       {
@@ -668,7 +668,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_5"
       },
       {
@@ -677,7 +677,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-28T00:00:00.000Z_ex_6"
       }
     ]
@@ -881,7 +881,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "77.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_0"
       },
       {
@@ -890,7 +890,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "26 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_1"
       },
       {
@@ -899,7 +899,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_2"
       },
       {
@@ -908,7 +908,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_3"
       },
       {
@@ -917,7 +917,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_4"
       },
       {
@@ -926,7 +926,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "20 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_5"
       },
       {
@@ -935,7 +935,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "собств. вес",
-        "gif": "https://giphy.com/embed/3o7TKrEzvLbgzG1nJ6",
+        "gif": null,
         "id": "2026-04-30T00:00:00.000Z_ex_6"
       }
     ]
@@ -1052,7 +1052,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "+5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_0"
       },
       {
@@ -1061,7 +1061,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "65 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_1"
       },
       {
@@ -1070,7 +1070,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "55 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_2"
       },
       {
@@ -1079,7 +1079,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_3"
       },
       {
@@ -1088,7 +1088,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_4"
       },
       {
@@ -1097,7 +1097,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_5"
       },
       {
@@ -1106,7 +1106,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-01T00:00:00.000Z_ex_6"
       }
     ]
@@ -1238,7 +1238,7 @@
         "sets": 4,
         "reps": "6",
         "weight": "110 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_0"
       },
       {
@@ -1247,7 +1247,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_1"
       },
       {
@@ -1256,7 +1256,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_2"
       },
       {
@@ -1265,7 +1265,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_3"
       },
       {
@@ -1274,7 +1274,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_4"
       },
       {
@@ -1283,7 +1283,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_5"
       },
       {
@@ -1292,7 +1292,7 @@
         "sets": 3,
         "reps": "45 сек",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-02T00:00:00.000Z_ex_6"
       }
     ]
@@ -1510,7 +1510,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "82.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_0"
       },
       {
@@ -1519,7 +1519,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "+7.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_1"
       },
       {
@@ -1528,7 +1528,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "28 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_2"
       },
       {
@@ -1537,7 +1537,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "70 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_3"
       },
       {
@@ -1546,7 +1546,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "22 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_4"
       },
       {
@@ -1555,7 +1555,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "9 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_5"
       },
       {
@@ -1564,7 +1564,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "27.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_6"
       },
       {
@@ -1573,7 +1573,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-04T00:00:00.000Z_ex_7"
       }
     ]
@@ -1692,7 +1692,7 @@
         "sets": 4,
         "reps": "7",
         "weight": "95 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_0"
       },
       {
@@ -1701,7 +1701,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_1"
       },
       {
@@ -1710,7 +1710,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "150 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_2"
       },
       {
@@ -1719,7 +1719,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "37.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_3"
       },
       {
@@ -1728,7 +1728,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "50 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_4"
       },
       {
@@ -1737,7 +1737,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "75 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_5"
       },
       {
@@ -1746,7 +1746,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-05T00:00:00.000Z_ex_6"
       }
     ]
@@ -1950,7 +1950,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_0"
       },
       {
@@ -1959,7 +1959,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "28 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_1"
       },
       {
@@ -1968,7 +1968,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_2"
       },
       {
@@ -1977,7 +1977,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_3"
       },
       {
@@ -1986,7 +1986,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "9 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_4"
       },
       {
@@ -1995,7 +1995,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "22.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_5"
       },
       {
@@ -2004,7 +2004,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "собств. вес",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-07T00:00:00.000Z_ex_6"
       }
     ]
@@ -2121,7 +2121,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "+7.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_0"
       },
       {
@@ -2130,7 +2130,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "70 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_1"
       },
       {
@@ -2139,7 +2139,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "57.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_2"
       },
       {
@@ -2148,7 +2148,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "9 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_3"
       },
       {
@@ -2157,7 +2157,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_4"
       },
       {
@@ -2166,7 +2166,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "32 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_5"
       },
       {
@@ -2175,7 +2175,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-08T00:00:00.000Z_ex_6"
       }
     ]
@@ -2307,7 +2307,7 @@
         "sets": 4,
         "reps": "6",
         "weight": "115 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_0"
       },
       {
@@ -2316,7 +2316,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_1"
       },
       {
@@ -2325,7 +2325,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_2"
       },
       {
@@ -2334,7 +2334,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "37.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_3"
       },
       {
@@ -2343,7 +2343,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "75 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_4"
       },
       {
@@ -2352,7 +2352,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "37.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_5"
       },
       {
@@ -2361,7 +2361,7 @@
         "sets": 3,
         "reps": "50 сек",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-09T00:00:00.000Z_ex_6"
       }
     ]
@@ -2579,7 +2579,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "87.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_0"
       },
       {
@@ -2588,7 +2588,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+10 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_1"
       },
       {
@@ -2597,7 +2597,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "30 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_2"
       },
       {
@@ -2606,7 +2606,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "75 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_3"
       },
       {
@@ -2615,7 +2615,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "24 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_4"
       },
       {
@@ -2624,7 +2624,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_5"
       },
       {
@@ -2633,7 +2633,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_6"
       },
       {
@@ -2642,7 +2642,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "32 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-11T00:00:00.000Z_ex_7"
       }
     ]
@@ -2761,7 +2761,7 @@
         "sets": 4,
         "reps": "6–7",
         "weight": "105 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_0"
       },
       {
@@ -2770,7 +2770,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_1"
       },
       {
@@ -2779,7 +2779,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "160 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_2"
       },
       {
@@ -2788,7 +2788,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "40 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_3"
       },
       {
@@ -2797,7 +2797,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "55 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_4"
       },
       {
@@ -2806,7 +2806,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "80 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_5"
       },
       {
@@ -2815,7 +2815,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-12T00:00:00.000Z_ex_6"
       }
     ]
@@ -3019,7 +3019,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_0"
       },
       {
@@ -3028,7 +3028,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "30 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_1"
       },
       {
@@ -3037,7 +3037,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "50 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_2"
       },
       {
@@ -3046,7 +3046,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_3"
       },
       {
@@ -3055,7 +3055,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_4"
       },
       {
@@ -3064,7 +3064,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "25 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_5"
       },
       {
@@ -3073,7 +3073,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-14T00:00:00.000Z_ex_6"
       }
     ]
@@ -3190,7 +3190,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+10 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_0"
       },
       {
@@ -3199,7 +3199,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "75 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_1"
       },
       {
@@ -3208,7 +3208,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "60 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_2"
       },
       {
@@ -3217,7 +3217,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_3"
       },
       {
@@ -3226,7 +3226,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "32 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_4"
       },
       {
@@ -3235,7 +3235,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_5"
       },
       {
@@ -3244,7 +3244,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-15T00:00:00.000Z_ex_6"
       }
     ]
@@ -3376,7 +3376,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "125 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_0"
       },
       {
@@ -3385,7 +3385,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_1"
       },
       {
@@ -3394,7 +3394,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_2"
       },
       {
@@ -3403,7 +3403,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "40 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_3"
       },
       {
@@ -3412,7 +3412,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "80 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_4"
       },
       {
@@ -3421,7 +3421,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "40 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_5"
       },
       {
@@ -3430,7 +3430,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-16T00:00:00.000Z_ex_6"
       }
     ]
@@ -3648,7 +3648,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_0"
       },
       {
@@ -3657,7 +3657,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+12.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_1"
       },
       {
@@ -3666,7 +3666,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "32 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_2"
       },
       {
@@ -3675,7 +3675,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "77.5 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_3"
       },
       {
@@ -3684,7 +3684,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "24 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_4"
       },
       {
@@ -3693,7 +3693,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_5"
       },
       {
@@ -3702,7 +3702,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "32.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_6"
       },
       {
@@ -3711,7 +3711,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-18T00:00:00.000Z_ex_7"
       }
     ]
@@ -3830,7 +3830,7 @@
         "sets": 4,
         "reps": "5–7",
         "weight": "110 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_0"
       },
       {
@@ -3839,7 +3839,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_1"
       },
       {
@@ -3848,7 +3848,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "170 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_2"
       },
       {
@@ -3857,7 +3857,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "42.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_3"
       },
       {
@@ -3866,7 +3866,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "57.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_4"
       },
       {
@@ -3875,7 +3875,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "85 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_5"
       },
       {
@@ -3884,7 +3884,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-19T00:00:00.000Z_ex_6"
       }
     ]
@@ -4088,7 +4088,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "87.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_0"
       },
       {
@@ -4097,7 +4097,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "32 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_1"
       },
       {
@@ -4106,7 +4106,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "52.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_2"
       },
       {
@@ -4115,7 +4115,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_3"
       },
       {
@@ -4124,7 +4124,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_4"
       },
       {
@@ -4133,7 +4133,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "27.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_5"
       },
       {
@@ -4142,7 +4142,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+7.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-21T00:00:00.000Z_ex_6"
       }
     ]
@@ -4259,7 +4259,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+12.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_0"
       },
       {
@@ -4268,7 +4268,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "77.5 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_1"
       },
       {
@@ -4277,7 +4277,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "62.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_2"
       },
       {
@@ -4286,7 +4286,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_3"
       },
       {
@@ -4295,7 +4295,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_4"
       },
       {
@@ -4304,7 +4304,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_5"
       },
       {
@@ -4313,7 +4313,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-22T00:00:00.000Z_ex_6"
       }
     ]
@@ -4445,7 +4445,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "130 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_0"
       },
       {
@@ -4454,7 +4454,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "95 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_1"
       },
       {
@@ -4463,7 +4463,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "20 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_2"
       },
       {
@@ -4472,7 +4472,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "42.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_3"
       },
       {
@@ -4481,7 +4481,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "85 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_4"
       },
       {
@@ -4490,7 +4490,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "42.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_5"
       },
       {
@@ -4499,7 +4499,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-23T00:00:00.000Z_ex_6"
       }
     ]
@@ -4717,7 +4717,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "92.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_0"
       },
       {
@@ -4726,7 +4726,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+12.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_1"
       },
       {
@@ -4735,7 +4735,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_2"
       },
       {
@@ -4744,7 +4744,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_3"
       },
       {
@@ -4753,7 +4753,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "26 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_4"
       },
       {
@@ -4762,7 +4762,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "11 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_5"
       },
       {
@@ -4771,7 +4771,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "32.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_6"
       },
       {
@@ -4780,7 +4780,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-25T00:00:00.000Z_ex_7"
       }
     ]
@@ -4899,7 +4899,7 @@
         "sets": 4,
         "reps": "5–7",
         "weight": "112.5 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_0"
       },
       {
@@ -4908,7 +4908,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "92.5 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_1"
       },
       {
@@ -4917,7 +4917,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "180 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_2"
       },
       {
@@ -4926,7 +4926,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "42.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_3"
       },
       {
@@ -4935,7 +4935,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "60 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_4"
       },
       {
@@ -4944,7 +4944,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "90 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_5"
       },
       {
@@ -4953,7 +4953,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-26T00:00:00.000Z_ex_6"
       }
     ]
@@ -5157,7 +5157,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_0"
       },
       {
@@ -5166,7 +5166,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_1"
       },
       {
@@ -5175,7 +5175,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "55 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_2"
       },
       {
@@ -5184,7 +5184,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_3"
       },
       {
@@ -5193,7 +5193,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "11 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_4"
       },
       {
@@ -5202,7 +5202,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "27.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_5"
       },
       {
@@ -5211,7 +5211,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-28T00:00:00.000Z_ex_6"
       }
     ]
@@ -5328,7 +5328,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+15 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_0"
       },
       {
@@ -5337,7 +5337,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_1"
       },
       {
@@ -5346,7 +5346,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "65 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_2"
       },
       {
@@ -5355,7 +5355,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_3"
       },
       {
@@ -5364,7 +5364,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "34 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_4"
       },
       {
@@ -5373,7 +5373,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_5"
       },
       {
@@ -5382,7 +5382,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-29T00:00:00.000Z_ex_6"
       }
     ]
@@ -5514,7 +5514,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "132.5 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_0"
       },
       {
@@ -5523,7 +5523,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "100 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_1"
       },
       {
@@ -5532,7 +5532,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "20 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_2"
       },
       {
@@ -5541,7 +5541,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_3"
       },
       {
@@ -5550,7 +5550,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "90 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_4"
       },
       {
@@ -5559,7 +5559,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "42.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_5"
       },
       {
@@ -5568,7 +5568,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-05-30T00:00:00.000Z_ex_6"
       }
     ]
@@ -5786,7 +5786,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "95 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_0"
       },
       {
@@ -5795,7 +5795,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+15 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_1"
       },
       {
@@ -5804,7 +5804,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_2"
       },
       {
@@ -5813,7 +5813,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "82.5 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_3"
       },
       {
@@ -5822,7 +5822,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "26 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_4"
       },
       {
@@ -5831,7 +5831,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_5"
       },
       {
@@ -5840,7 +5840,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_6"
       },
       {
@@ -5849,7 +5849,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-01T00:00:00.000Z_ex_7"
       }
     ]
@@ -5968,7 +5968,7 @@
         "sets": 4,
         "reps": "5–7",
         "weight": "115 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_0"
       },
       {
@@ -5977,7 +5977,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "95 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_1"
       },
       {
@@ -5986,7 +5986,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "185 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_2"
       },
       {
@@ -5995,7 +5995,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_3"
       },
       {
@@ -6004,7 +6004,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "62.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_4"
       },
       {
@@ -6013,7 +6013,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "90 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_5"
       },
       {
@@ -6022,7 +6022,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-02T00:00:00.000Z_ex_6"
       }
     ]
@@ -6226,7 +6226,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "92.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_0"
       },
       {
@@ -6235,7 +6235,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "34 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_1"
       },
       {
@@ -6244,7 +6244,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "55 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_2"
       },
       {
@@ -6253,7 +6253,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_3"
       },
       {
@@ -6262,7 +6262,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_4"
       },
       {
@@ -6271,7 +6271,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_5"
       },
       {
@@ -6280,7 +6280,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+10 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-04T00:00:00.000Z_ex_6"
       }
     ]
@@ -6397,7 +6397,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+15 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_0"
       },
       {
@@ -6406,7 +6406,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "82.5 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_1"
       },
       {
@@ -6415,7 +6415,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "67.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_2"
       },
       {
@@ -6424,7 +6424,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_3"
       },
       {
@@ -6433,7 +6433,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_4"
       },
       {
@@ -6442,7 +6442,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_5"
       },
       {
@@ -6451,7 +6451,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-05T00:00:00.000Z_ex_6"
       }
     ]
@@ -6583,7 +6583,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "135 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_0"
       },
       {
@@ -6592,7 +6592,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "105 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_1"
       },
       {
@@ -6601,7 +6601,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "22 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_2"
       },
       {
@@ -6610,7 +6610,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_3"
       },
       {
@@ -6619,7 +6619,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "95 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_4"
       },
       {
@@ -6628,7 +6628,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_5"
       },
       {
@@ -6637,7 +6637,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-06T00:00:00.000Z_ex_6"
       }
     ]
@@ -6855,7 +6855,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "77.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_0"
       },
       {
@@ -6864,7 +6864,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "собств. вес",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_1"
       },
       {
@@ -6873,7 +6873,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "28 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_2"
       },
       {
@@ -6882,7 +6882,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "65 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_3"
       },
       {
@@ -6891,7 +6891,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "20 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_4"
       },
       {
@@ -6900,7 +6900,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_5"
       },
       {
@@ -6909,7 +6909,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "25 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_6"
       },
       {
@@ -6918,7 +6918,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-08T00:00:00.000Z_ex_7"
       }
     ]
@@ -7037,7 +7037,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "90 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_0"
       },
       {
@@ -7046,7 +7046,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "75 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_1"
       },
       {
@@ -7055,7 +7055,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "140 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_2"
       },
       {
@@ -7064,7 +7064,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_3"
       },
       {
@@ -7073,7 +7073,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_4"
       },
       {
@@ -7082,7 +7082,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_5"
       },
       {
@@ -7091,7 +7091,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-09T00:00:00.000Z_ex_6"
       }
     ]
@@ -7295,7 +7295,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "75 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_0"
       },
       {
@@ -7304,7 +7304,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "28 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_1"
       },
       {
@@ -7313,7 +7313,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "45 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_2"
       },
       {
@@ -7322,7 +7322,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "14 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_3"
       },
       {
@@ -7331,7 +7331,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_4"
       },
       {
@@ -7340,7 +7340,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "22.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_5"
       },
       {
@@ -7349,7 +7349,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "собств. вес",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-11T00:00:00.000Z_ex_6"
       }
     ]
@@ -7466,7 +7466,7 @@
         "sets": 4,
         "reps": "8",
         "weight": "собств. вес",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_0"
       },
       {
@@ -7475,7 +7475,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "65 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_1"
       },
       {
@@ -7484,7 +7484,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "55 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_2"
       },
       {
@@ -7493,7 +7493,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "8 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_3"
       },
       {
@@ -7502,7 +7502,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_4"
       },
       {
@@ -7511,7 +7511,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_5"
       },
       {
@@ -7520,7 +7520,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-12T00:00:00.000Z_ex_6"
       }
     ]
@@ -7652,7 +7652,7 @@
         "sets": 4,
         "reps": "6",
         "weight": "110 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_0"
       },
       {
@@ -7661,7 +7661,7 @@
         "sets": 3,
         "reps": "10",
         "weight": "80 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_1"
       },
       {
@@ -7670,7 +7670,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "16 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_2"
       },
       {
@@ -7679,7 +7679,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_3"
       },
       {
@@ -7688,7 +7688,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_4"
       },
       {
@@ -7697,7 +7697,7 @@
         "sets": 4,
         "reps": "15",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_5"
       },
       {
@@ -7706,7 +7706,7 @@
         "sets": 3,
         "reps": "45 сек",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-13T00:00:00.000Z_ex_6"
       }
     ]
@@ -7924,7 +7924,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "97.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_0"
       },
       {
@@ -7933,7 +7933,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+17.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_1"
       },
       {
@@ -7942,7 +7942,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_2"
       },
       {
@@ -7951,7 +7951,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_3"
       },
       {
@@ -7960,7 +7960,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_4"
       },
       {
@@ -7969,7 +7969,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_5"
       },
       {
@@ -7978,7 +7978,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "35 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_6"
       },
       {
@@ -7987,7 +7987,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-15T00:00:00.000Z_ex_7"
       }
     ]
@@ -8106,7 +8106,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "117.5 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_0"
       },
       {
@@ -8115,7 +8115,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "97.5 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_1"
       },
       {
@@ -8124,7 +8124,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "190 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_2"
       },
       {
@@ -8133,7 +8133,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_3"
       },
       {
@@ -8142,7 +8142,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "65 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_4"
       },
       {
@@ -8151,7 +8151,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "95 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_5"
       },
       {
@@ -8160,7 +8160,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-16T00:00:00.000Z_ex_6"
       }
     ]
@@ -8364,7 +8364,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "95 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_0"
       },
       {
@@ -8373,7 +8373,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_1"
       },
       {
@@ -8382,7 +8382,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "57.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_2"
       },
       {
@@ -8391,7 +8391,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_3"
       },
       {
@@ -8400,7 +8400,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_4"
       },
       {
@@ -8409,7 +8409,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "30 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_5"
       },
       {
@@ -8418,7 +8418,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+12.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-18T00:00:00.000Z_ex_6"
       }
     ]
@@ -8535,7 +8535,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+17.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_0"
       },
       {
@@ -8544,7 +8544,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_1"
       },
       {
@@ -8553,7 +8553,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_2"
       },
       {
@@ -8562,7 +8562,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_3"
       },
       {
@@ -8571,7 +8571,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_4"
       },
       {
@@ -8580,7 +8580,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "38 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_5"
       },
       {
@@ -8589,7 +8589,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-19T00:00:00.000Z_ex_6"
       }
     ]
@@ -8721,7 +8721,7 @@
         "sets": 4,
         "reps": "5",
         "weight": "140 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_0"
       },
       {
@@ -8730,7 +8730,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "110 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_1"
       },
       {
@@ -8739,7 +8739,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "24 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_2"
       },
       {
@@ -8748,7 +8748,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_3"
       },
       {
@@ -8757,7 +8757,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "100 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_4"
       },
       {
@@ -8766,7 +8766,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_5"
       },
       {
@@ -8775,7 +8775,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-20T00:00:00.000Z_ex_6"
       }
     ]
@@ -8993,7 +8993,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "100 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_0"
       },
       {
@@ -9002,7 +9002,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+20 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_1"
       },
       {
@@ -9011,7 +9011,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_2"
       },
       {
@@ -9020,7 +9020,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_3"
       },
       {
@@ -9029,7 +9029,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_4"
       },
       {
@@ -9038,7 +9038,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_5"
       },
       {
@@ -9047,7 +9047,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "37.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_6"
       },
       {
@@ -9056,7 +9056,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "38 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-22T00:00:00.000Z_ex_7"
       }
     ]
@@ -9175,7 +9175,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "120 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_0"
       },
       {
@@ -9184,7 +9184,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "100 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_1"
       },
       {
@@ -9193,7 +9193,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "200 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_2"
       },
       {
@@ -9202,7 +9202,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_3"
       },
       {
@@ -9211,7 +9211,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "67.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_4"
       },
       {
@@ -9220,7 +9220,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "95 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_5"
       },
       {
@@ -9229,7 +9229,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-23T00:00:00.000Z_ex_6"
       }
     ]
@@ -9433,7 +9433,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "97.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_0"
       },
       {
@@ -9442,7 +9442,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_1"
       },
       {
@@ -9451,7 +9451,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "57.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_2"
       },
       {
@@ -9460,7 +9460,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_3"
       },
       {
@@ -9469,7 +9469,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_4"
       },
       {
@@ -9478,7 +9478,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "32.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_5"
       },
       {
@@ -9487,7 +9487,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+15 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-25T00:00:00.000Z_ex_6"
       }
     ]
@@ -9604,7 +9604,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+17.5 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_0"
       },
       {
@@ -9613,7 +9613,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_1"
       },
       {
@@ -9622,7 +9622,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "70 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_2"
       },
       {
@@ -9631,7 +9631,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_3"
       },
       {
@@ -9640,7 +9640,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "36 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_4"
       },
       {
@@ -9649,7 +9649,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "38 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_5"
       },
       {
@@ -9658,7 +9658,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-26T00:00:00.000Z_ex_6"
       }
     ]
@@ -9790,7 +9790,7 @@
         "sets": 4,
         "reps": "5",
         "weight": "140 кг",
-        "gif": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_0"
       },
       {
@@ -9799,7 +9799,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "110 кг",
-        "gif": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_1"
       },
       {
@@ -9808,7 +9808,7 @@
         "sets": 3,
         "reps": "10/ногу",
         "weight": "24 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_2"
       },
       {
@@ -9817,7 +9817,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_3"
       },
       {
@@ -9826,7 +9826,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "100 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_4"
       },
       {
@@ -9835,7 +9835,7 @@
         "sets": 4,
         "reps": "15–20",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_5"
       },
       {
@@ -9844,7 +9844,7 @@
         "sets": 3,
         "reps": "12",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-27T00:00:00.000Z_ex_6"
       }
     ]
@@ -10062,7 +10062,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "100 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_0"
       },
       {
@@ -10071,7 +10071,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "+20 кг",
-        "gif": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_1"
       },
       {
@@ -10080,7 +10080,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_2"
       },
       {
@@ -10089,7 +10089,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "85 кг",
-        "gif": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_3"
       },
       {
@@ -10098,7 +10098,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "28 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_4"
       },
       {
@@ -10107,7 +10107,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_5"
       },
       {
@@ -10116,7 +10116,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "37.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_6"
       },
       {
@@ -10125,7 +10125,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "38 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-29T00:00:00.000Z_ex_7"
       }
     ]
@@ -10244,7 +10244,7 @@
         "sets": 4,
         "reps": "5–6",
         "weight": "120 кг",
-        "gif": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_0"
       },
       {
@@ -10253,7 +10253,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "100 кг",
-        "gif": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_1"
       },
       {
@@ -10262,7 +10262,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "200 кг",
-        "gif": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_2"
       },
       {
@@ -10271,7 +10271,7 @@
         "sets": 3,
         "reps": "10–12",
         "weight": "47.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_3"
       },
       {
@@ -10280,7 +10280,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "67.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_4"
       },
       {
@@ -10289,7 +10289,7 @@
         "sets": 4,
         "reps": "12–15",
         "weight": "95 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_5"
       },
       {
@@ -10298,7 +10298,7 @@
         "sets": 3,
         "reps": "15",
         "weight": "—",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-06-30T00:00:00.000Z_ex_6"
       }
     ]
@@ -10502,7 +10502,7 @@
         "sets": 4,
         "reps": "6–8",
         "weight": "97.5 кг",
-        "gif": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_0"
       },
       {
@@ -10511,7 +10511,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "36 кг",
-        "gif": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_1"
       },
       {
@@ -10520,7 +10520,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "57.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_2"
       },
       {
@@ -10529,7 +10529,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "18 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_3"
       },
       {
@@ -10538,7 +10538,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "12 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_4"
       },
       {
@@ -10547,7 +10547,7 @@
         "sets": 3,
         "reps": "12–15",
         "weight": "32.5 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_5"
       },
       {
@@ -10556,7 +10556,7 @@
         "sets": 3,
         "reps": "8–10",
         "weight": "+15 кг",
-        "gif": "https://media.giphy.com/media/dummy/giphy.gif",
+        "gif": null,
         "id": "2026-07-02T00:00:00.000Z_ex_6"
       }
     ]

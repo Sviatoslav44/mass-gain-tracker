@@ -84,23 +84,23 @@ function getRecipe(mealName, items) {
 
 // Exercise GIF mappings (dummy direct realistic links for MVP)
 const exerciseGifs = {
-  "Жим штанги лёжа": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
-  "Подтягивания": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
-  "Жим гантелей наклонная": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
-  "Тяга штанги": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
-  "Приседания": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
-  "Румынская тяга": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
-  "Жим ногами": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
-  "Становая тяга": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
-  "Гакк-присед": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
-  "Отжимания на брусьях": "https://giphy.com/embed/3o7TKrEzvLbgzG1nJ6"
+  "Жим штанги лёжа": null,
+  "Подтягивания": null,
+  "Жим гантелей наклонная": null,
+  "Тяга штанги": null,
+  "Приседания": null,
+  "Румынская тяга": null,
+  "Жим ногами": null,
+  "Становая тяга": null,
+  "Гакк-присед": null,
+  "Отжимания на брусьях": null
 };
 
 function getGifForExercise(name) {
   for (const key of Object.keys(exerciseGifs)) {
     if (name.includes(key)) return exerciseGifs[key];
   }
-  return "https://media.giphy.com/media/dummy/giphy.gif"; // Fallback
+  return null; // Fallback
 }
 
 // Parse exactly from markdown
