@@ -124,21 +124,14 @@ export default function WorkoutsDashboard({ allPlans }: { allPlans: any[] }) {
             <button onClick={() => setActiveGif(null)} className="absolute top-3 right-3 w-8 h-8 bg-black/40 rounded-full flex items-center justify-center text-white hover:bg-black/60 z-10">✕</button>
             <h3 className="text-white font-bold w-full text-left mb-4 px-2">Техника выполнения</h3>
             <div className="w-full relative rounded-2xl overflow-hidden bg-black/40 min-h-[200px] flex items-center justify-center border border-white/10">
-              <img 
-                src={activeGif} 
-                alt="Exercise GIF" 
-                className="w-full h-auto object-contain"
-                onError={(e) => {
-                  (e.target as HTMLElement).style.display = 'none';
-                  const parent = (e.target as HTMLElement).parentElement;
-                  if (parent) {
-                    const fallback = document.createElement('div');
-                    fallback.className = "flex flex-col items-center justify-center text-slate-400 p-8";
-                    fallback.innerHTML = `<span class="text-6xl mb-4">🏋️‍♂️</span><p class="text-center font-medium">Анимация недоступна</p>`;
-                    parent.appendChild(fallback);
-                  }
-                }}
-              />
+              <iframe
+                src={activeGif}
+                width="100%"
+                height="100%"
+                style={{ border: 'none', minHeight: '250px', borderRadius: '0.75rem' }}
+                allowFullScreen
+                className="pointer-events-none"
+              ></iframe>
             </div>
           </div>
         </div>

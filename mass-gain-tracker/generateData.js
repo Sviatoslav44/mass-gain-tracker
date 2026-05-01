@@ -84,16 +84,16 @@ function getRecipe(mealName, items) {
 
 // Exercise GIF mappings (dummy direct realistic links for MVP)
 const exerciseGifs = {
-  "Жим штанги лёжа": "https://i.giphy.com/3o7TKnO6Wve6502iJq.gif",
-  "Подтягивания": "https://i.giphy.com/3oz8xSDjJk1wN8pLQA.gif",
-  "Жим гантелей наклонная": "https://i.giphy.com/xT9DPxggC8w6kOqjCM.gif",
-  "Тяга штанги": "https://i.giphy.com/l41YkxvU8c7J7Bba0.gif",
-  "Приседания": "https://i.giphy.com/l0HlJzETeR7P6cZlS.gif",
-  "Румынская тяга": "https://i.giphy.com/3o6Ztg2MgUkcXyCpnG.gif",
-  "Жим ногами": "https://i.giphy.com/xT9DPIlGnuHpr2yOic.gif",
-  "Становая тяга": "https://i.giphy.com/l0HlO4q8nBf7XnOo8.gif",
-  "Гакк-присед": "https://i.giphy.com/3o7TKMJcCO91djtGfe.gif",
-  "Отжимания на брусьях": "https://i.giphy.com/3o7TKrEzvLbgzG1nJ6.gif"
+  "Жим штанги лёжа": "https://giphy.com/embed/3o7TKnO6Wve6502iJq",
+  "Подтягивания": "https://giphy.com/embed/3oz8xSDjJk1wN8pLQA",
+  "Жим гантелей наклонная": "https://giphy.com/embed/xT9DPxggC8w6kOqjCM",
+  "Тяга штанги": "https://giphy.com/embed/l41YkxvU8c7J7Bba0",
+  "Приседания": "https://giphy.com/embed/l0HlJzETeR7P6cZlS",
+  "Румынская тяга": "https://giphy.com/embed/3o6Ztg2MgUkcXyCpnG",
+  "Жим ногами": "https://giphy.com/embed/xT9DPIlGnuHpr2yOic",
+  "Становая тяга": "https://giphy.com/embed/l0HlO4q8nBf7XnOo8",
+  "Гакк-присед": "https://giphy.com/embed/3o7TKMJcCO91djtGfe",
+  "Отжимания на брусьях": "https://giphy.com/embed/3o7TKrEzvLbgzG1nJ6"
 };
 
 function getGifForExercise(name) {
